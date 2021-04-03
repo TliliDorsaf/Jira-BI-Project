@@ -10,6 +10,7 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/JiraDW_jobs/etl_dim_sprint_0.1</module>
   </modules>
   <properties>
     <talend.project.name>JIRA_DW</talend.project.name>
