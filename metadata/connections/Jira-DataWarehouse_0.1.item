@@ -55,6 +55,23 @@
           <sqlDataType xmi:id="_djVSPZSmEeu47JCpK8ZNyg" name="INT8" numericPrecisionRadix="10" javaDataType="-5" nullable="columnNullable"/>
         </feature>
       </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_ebw7cJVVEeuBy4GDtem9LA" name="Dim_Ressources" id="_ebvGQJVVEeuBy4GDtem9LA" label="Dim_Ressources" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_ebw7cZVVEeuBy4GDtem9LA" name="name" label="name" length="255" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_ebw7cpVVEeuBy4GDtem9LA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ebw7c5VVEeuBy4GDtem9LA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ebxigJVVEeuBy4GDtem9LA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ebxigZVVEeuBy4GDtem9LA" name="ID_ressources" label="ID_ressources" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_ebxigpVVEeuBy4GDtem9LA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ebxig5VVEeuBy4GDtem9LA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ebxihJVVEeuBy4GDtem9LA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ebxihZVVEeuBy4GDtem9LA" name="key" label="key" length="255" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_ebxihpVVEeuBy4GDtem9LA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ebxih5VVEeuBy4GDtem9LA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ebxiiJVVEeuBy4GDtem9LA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
     </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
