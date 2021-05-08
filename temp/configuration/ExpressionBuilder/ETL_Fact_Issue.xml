@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="Integer.parseInt(jiraissue.issuestatus)  == 6 ? &quot;closed&quot; : Integer.parseInt(jiraissue.issuestatus) ==  1 ? &quot;open&quot; : &#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 10000 ? &quot;To DO&quot; :&#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 10001 ? &quot;Done&quot; :&#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 10100&#xD;&#xA;? &quot;Acceptence&quot; :&#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 10101&#xD;&#xA;? &quot;Checked In&quot; : &#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 10102&#xD;&#xA;? &quot;Code Review&quot; :&#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 10103&#xD;&#xA;? &quot;In Development&quot; :&#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 10104&#xD;&#xA;? &quot;In Testing&quot; :&#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 3 ?&#xD;&#xA;&quot;In Progress&quot; :&#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 4 ?&#xD;&#xA;&quot;Reopened&quot; :&#xD;&#xA;Integer.parseInt(jiraissue.issuestatus) == 5 ?&#xD;&#xA;&quot;Resolved&quot; : &quot;No Data&quot;">
+  <variables name="row1.project" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row1.stringvalue" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.issue" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row1.assignee" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.issuetype" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.id" value="null" talendType="id_BigDecimal"/>
+  <variables name="row2.pname" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.url" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.lead" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.pkey" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.pcounter" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row2.assigneetype" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row2.avatar" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row2.originalkey" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.projecttype" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.id" value="null" talendType="id_BigDecimal"/>
+  <variables name="jiraissue.pkey" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.issuenum" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.project" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.reporter" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.assignee" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.creator" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.issuetype" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.summary" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.environment" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.priority" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.resolution" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.issuestatus" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.created" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="jiraissue.updated" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="jiraissue.duedate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="jiraissue.resolutiondate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="jiraissue.votes" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.watches" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.timeoriginalestimate" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.timeestimate" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.timespent" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.workflow_id" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.security" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.fixfor" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.component" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.archived" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.archivedby" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.archiveddate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="jiraissue.passed" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.restant" value="null" talendType="id_String" nullable="true"/>
+  <variables name="jiraissue.ecart" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.diff" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue._column_" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="jiraissue.violation" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.ID_Project" value="0" talendType="id_Long"/>
+  <variables name="row4.p_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.lead" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.key" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.ID_ressources" value="0" talendType="id_Integer"/>
+  <variables name="row5.key" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.ID_Epic" value="null" talendType="id_BigDecimal"/>
+  <variables name="row6.issue_num" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row6.assignee" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.timeoriginalestimate" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row6.timeestimate" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row6.timespent" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row7.ID_Issue_Type" value="null" talendType="id_String"/>
+  <variables name="row7.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row8.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row8.started" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row8.closed" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row8.start_date" value="null" talendType="id_Long" nullable="true"/>
+  <variables name="row8.end_date" value="null" talendType="id_Long" nullable="true"/>
+  <variables name="row8.complete_date" value="null" talendType="id_Long" nullable="true"/>
+  <variables name="row8.ID_Sprint" value="0" talendType="id_Long"/>
+</expression:EMFExpression>

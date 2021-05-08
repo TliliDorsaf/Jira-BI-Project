@@ -12,6 +12,9 @@
     <taggedValue xmi:id="_USzRAJSdEeu47JCpK8ZNyg" tag="DB ProductName" value="PostgreSQL"/>
     <taggedValue xmi:id="_USzRAZSdEeu47JCpK8ZNyg" tag="DB ProductVersion" value="13.2"/>
     <taggedValue xmi:id="_USzRApSdEeu47JCpK8ZNyg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <queries xmi:id="_S5as0JrrEeua7oDKgA0VOg">
+      <query xmi:id="_S5as0prrEeua7oDKgA0VOg" id="_S5as0ZrrEeua7oDKgA0VOg" label="sql1" value="SELECT project, stringvalue, issue, assignee, issuetype&#xA;&#x9;FROM public.customfieldvalue&#xD;&#xA;&#x9;join jiraissue ON jiraissue.id = customfieldvalue.issue &#xD;&#xA;&#x9;join issuetype ON issuetype.id = jiraissue.issuetype&#xD;&#xA;&#x9;when customfieldvalue.customfield = 10104&#xD;&#xA;&#x9;and customfieldvalue.issue = jiraissue.id&#xD;&#xA;&#x9;group by project, stringvalue, issue, assignee, issuetype&#xD;&#xA;&#x9;order by project;"/>
+    </queries>
     <parameters xmi:id="_URIdEZSdEeu47JCpK8ZNyg" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_UUnO4JSdEeu47JCpK8ZNyg" name="newdb" dataManager="_URC9gJSdEeu47JCpK8ZNyg">
