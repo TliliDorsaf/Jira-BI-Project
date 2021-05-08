@@ -1,0 +1,3220 @@
+"ID_Epic","issue_num","assignee","description","timeoriginalestimate","timeestimate","timespent"
+"10013","14",NULL,NULL,NULL,NULL,NULL
+"10014","15",NULL,NULL,NULL,NULL,NULL
+"10016","17",NULL,NULL,NULL,NULL,NULL
+"10019","20","JIRAUSER10401","Sans UDF
+
+ ","28800","0","7200"
+"10020","21","JIRAUSER10100","Ramener l'infomation de la garantie du loan en question (avec UDF)
+
+Si pas de garantie ramener NULL
+
+Mise en place du Service qui consomme la requette
+
+ ","28800","0",NULL
+"10021","22","JIRAUSER10100","After approval no changes can be made to the Loan Application.","57600","0","57600"
+"10022","23","JIRAUSER10100","* changer Text 
+ * Bare image (how to update it)
+ * validation
+ * enlever forget password","21600","0","21600"
+"10023","24","JIRAUSER10401",NULL,"28800","0","28800"
+"10108","35","JIRAUSER10401",NULL,"28800","0","28800"
+"10109","36","JIRAUSER10401",NULL,"57600","0","100800"
+"10301","39",NULL,NULL,NULL,NULL,NULL
+"10419","56",NULL,":info+NOTE+:
+
+*version*: 0.1.19
+
+*Environnement* : QA
+----
+h5. Précondition :
+
+Définition de la précondition
+----
+h5. Etapes de reproduction :
+ # Step 1
+
+ # Step 2
+
+ # Step N
+
+----
+h5. Résultat attendu :
+
+Définition du résultat attendu
+----
+h5. Résultat obtenu :
+
+Définition du résultat obtenu","28800","28800",NULL
+"10420","57",NULL,NULL,"1152000","1152000",NULL
+"10421","58","JIRAUSER10100"," 
+
+ ","115200","21600","93600"
+"10422","59",NULL,NULL,"576000","576000",NULL
+"10423","60","JIRAUSER10401","Select loans by user (connected) and whrite in logger log4j
+
+use Spring batch","86400","0","100800"
+"10424","61","JIRAUSER10401"," Configure row mapper and testing
+
+l'idée c'est de se connecter à Abacus et sélectionner les data
+
+ ","86400","0","86400"
+"10425","62","JIRAUSER10401","Conception du modele de base de donnée  pour le user profile
+
+ ","28800","0","28800"
+"10426","63","JIRAUSER10101",NULL,"28800","0","14400"
+"10427","64",NULL,NULL,"28800","0","28800"
+"10428","65","JIRAUSER10100",NULL,"57600","0","57600"
+"10429","1","JIRAUSER10400",NULL,"3600","0","14400"
+"10430","2","JIRAUSER10400",NULL,"10800","0","10800"
+"10431","3","JIRAUSER10400",NULL,"57600","14400","43200"
+"10432","4","JIRAUSER10400",NULL,"201600","0","216000"
+"10433","5","JIRAUSER10000",NULL,"86400","0","86400"
+"10434","6","JIRAUSER10400",NULL,"86400","28800","57600"
+"10435","7","JIRAUSER10400",NULL,"86400","0","86400"
+"10436","8","JIRAUSER10400",NULL,"86400","7200","79200"
+"10438","10","JIRAUSER10400",NULL,"86400","28800","57600"
+"10439","11","JIRAUSER10400","[^Documentation SSIS vs Talend.docx] 
+
+ ","28800","0","57600"
+"10440","12","JIRAUSER10400",NULL,"0","0",NULL
+"10441","13","JIRAUSER10400",NULL,"28800","0","28800"
+"10442","14","JIRAUSER10400",NULL,"144000","0","144000"
+"10443","66","JIRAUSER10401",NULL,"28800","0","28800"
+"10444","67","JIRAUSER10401","* chargement de la table  *acm.loan* a partir de la table *demoabacus.CULoan*
+ * configuration mécanisme de notification par mail suite au chargement","28800","0","28800"
+"10445","68","JIRAUSER10401","mis en place d'une première version (vue avec [~soumaya.barkallah] )","28800","0","28800"
+"10446","69","JIRAUSER10100",NULL,"28800","0","57600"
+"10447","15","JIRAUSER10400","[Controle de la qualité des données.docx ] (confluence)","28800","0","28800"
+"10448","16","JIRAUSER10400",NULL,"28800","0","86400"
+"10449","17","JIRAUSER10400","[^Documentation SSIS vs Talend.docx] (Confluence)","14400","14400",NULL
+"10450","70","JIRAUSER10401","Ajouter table DOC_LOAN
+
+Sauvgarde dans la table","86400","0","14400"
+"10451","71","JIRAUSER10100","Zone de text avec des caractéristique word
+
+Edit avec histo changement (comme mantis)
+
+Pas de delete","86400","0","14400"
+"10452","18","JIRAUSER10400",NULL,"7200","7200",NULL
+"10453","72","JIRAUSER10401",NULL,"28800","0","36000"
+"10454","73",NULL,NULL,"0","0",NULL
+"10455","74",NULL,NULL,"0","0",NULL
+"10456","75",NULL,NULL,"0","0",NULL
+"10457","76","JIRAUSER10101",NULL,"14400","0","7200"
+"10458","77","JIRAUSER10101",NULL,"14400","0","7200"
+"10459","78","JIRAUSER10600","* préparation IHM
+ ** proposition a valider avec [~soumaya.barkallah]
+ * load liste loan
+ ** utilisation service : voir fichier acm_url : *FIND_LOANS*
+ * utilisation service backend du contrôleur : class *DocumentsLoanController*
+ ** save
+ ** recherche","57600","0","72000"
+"10460","79","JIRAUSER10101",NULL,"14400","0","10800"
+"10461","80","JIRAUSER10101","Tous les écrans avec chemin de navigation","86400","0","43200"
+"10462","81","JIRAUSER10000","Requette SQL","7200","0","14400"
+"10463","82","JIRAUSER10000",NULL,"7200","0","14400"
+"10464","83","JIRAUSER10401","* paramétrage documents par produit
+ * paramétrage des documents requis pour le clients","28800","0","28800"
+"10465","84","JIRAUSER10000",NULL,"144000","0","122400"
+"10466","85","JIRAUSER10401","- Add new columns in *Loan* model :
+ * ID_ACCOUNT_EXTERN
+ * ACCOUNT_NUMBER_EXTERN
+
+- Mis a jour batch
+
+ ","14400","0","14400"
+"10467","86","JIRAUSER10100","-- ACM : DATA BASE-- ACM : DATA BASE
+--- RESET DB : IF OBJECT_ID('dbo.ACM_USERS', 'U') IS NOT NULLDROP TABLE dbo.ACM_USERS;
+IF OBJECT_ID('dbo.ACM_ENVIRONNEMENT', 'U') IS NOT NULLDROP TABLE dbo.ACM_ENVIRONNEMENT;
+IF OBJECT_ID('dbo.ACM_REPORT_VISIT', 'U') IS NOT NULLDROP TABLE dbo.ACM_REPORT_VISIT;
+IF OBJECT_ID('dbo.ACM_LOAN', 'U') IS NOT NULLDROP TABLE dbo.ACM_LOAN;-------------
+----- TABLE : LOAN CREATE TABLE ACM_LOAN(
+ ID_ACM_LOAN BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY,   
+ ID_LOAN_EXTERN BIGINT NOT NULL,
+ ID_ACCOUNT_EXTERN BIGINT,
+ ACCOUNT_NUMBER_EXTERN VARCHAR (256),
+ STATUT INT NOT NULL,
+ PROCESS_INSTANCE_ID VARCHAR (256) NULL,
+ PORTFOLIO_ID BIGINT NOT NULL, --- 0 : PAR DEFAULT PAS DE PROFIL COTÉ ABACUS
+ ACM_ENABLED BIT NOT NULL DEFAULT 1,
+ DATE_INSERTION DATE NULL, INSERT_BY  VARCHAR (256) NULL,
+ DATE_LAST_UPDATE DATE NULL,
+ UPDATED_BY  VARCHAR (256) NULL,
+ ACM_VERSION INT NULL);-------------------
+----- TABLE : USERS CREATE TABLE ACM_USERS(   
+ USERNAME VARCHAR (256) NOT NULL PRIMARY KEY,   
+ PASSWORD VARCHAR (256) NOT NULL,
+ ACCOUNT_PORTFOLIO_ID BIGINT NOT NULL, --- 0 : PAR DEFAULT PAS DE PORTFOLIO COTÉ ABACUS
+ USER_EXTERN_ID BIGINT NOT NULL, --- 0 : PAR DEFAULT PAS DE USER COTÉ ABACUS
+ USER_PROFIL_ID BIGINT NOT NULL, --- 0 : PAR DEFAULT PAS DE PROFIL COTÉ ABACUS
+ ID_USER BIGINT NOT NULL IDENTITY(1,1), 
+ RESPONSABLE_ID BIGINT NOT NULL , --- 0 : PAS DE RESPONSABLE ACM_ENABLED BIT NOT NULL,
+ ACM_ENABLED BIT NOT NULL DEFAULT 1,
+ DATE_INSERTION DATE NULL, INSERT_BY  VARCHAR (256) NULL,
+ DATE_LAST_UPDATE DATE NULL,
+ UPDATED_BY  VARCHAR (256) NULL,
+ ACM_VERSION INT NULL)-------------------
+----- TABLE : ACM_ENVIRONNEMENT CREATE TABLE ACM_ENVIRONNEMENT(   
+ ID BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY,   
+ ACM_ENVIRONNEMENT_KEY VARCHAR (256) NOT NULL,
+ ACM_ENVIRONNEMENT_VALUE VARCHAR (256) NOT NULL,
+ ACM_ENABLED BIT NOT NULL DEFAULT 1,
+ DATE_INSERTION DATE NULL, INSERT_BY  VARCHAR (256) NULL,
+ DATE_LAST_UPDATE DATE NULL,
+ UPDATED_BY  VARCHAR (256) NULL,
+ ACM_VERSION INT NULL)------------------- 
+
+----- TABLE : ACM_REPORT_VISIT CREATE TABLE ACM_REPORT_VISIT( ID_ACM_REPORT_VISIT BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY,   ID_ACM_LOAN BIGINT NOT NULL,
+ DESCRIPTION VARCHAR(5000) NOT NULL, TITLE VARCHAR(255) NOT NULL,
+ VISIT_BY VARCHAR (256) NULL, ACM_ENABLED BIT NOT NULL DEFAULT 1,
+ DATE_INSERTION DATE NULL, INSERT_BY  VARCHAR (256) NULL,
+ DATE_LAST_UPDATE DATE NULL,
+ UPDATED_BY  VARCHAR (256) NULL,
+ ACM_VERSION INT NULL,
+ FOREIGN KEY (ID_ACM_LOAN) REFERENCES ACM_LOAN (ID_ACM_LOAN));","7200","0","7200"
+"10469","88","JIRAUSER10100",NULL,"28800","0","68400"
+"10470","89","JIRAUSER10100"," 
+
+ ","14400","0","28800"
+"10471","90","JIRAUSER10100"," 
+
+ ","28800","0","28800"
+"10472","91","JIRAUSER10100",NULL,"28800","0","86400"
+"10473","92","JIRAUSER10600",NULL,"86400","0","122400"
+"10474","93","JIRAUSER10100",NULL,"57600","0","115200"
+"10475","94","JIRAUSER10401","Table de config de motifs de rejet:
+ * Incorrect Application
+ * Loan in Arrears
+ * Insufficient History
+ * Previous Bad Debt
+ * Deceased
+
+Table de motif de correction:
+ * Visit Report
+ * Guarantor
+ * Collateral
+ * Documents
+ * Financial Analysis
+ * Loan Info","86400","0","28800"
+"10476","95","JIRAUSER10100",NULL,"28800","0","28800"
+"10477","96","JIRAUSER10401","h3. Customer Financial Analysis
+ * This tab contains information about customer financial data like balance sheet,income statement and used to calculate different ratios. Financial categories can be added through Customer financial categories tab (see [Customer Financial Category|http://help.fernsoftware.com/index.php/Customer_Financial_Category])
+
+[!http://help.fernsoftware.com/images/thumb/8/85/Loan_CustomerAnalysis.PNG/1000px-Loan_CustomerAnalysis.PNG|width=1000,height=471!|http://help.fernsoftware.com/index.php/File:Loan_CustomerAnalysis.PNG]
+||Field||Type||Description||Compulsory?||
+||Customer financial Analysis||
+||Customer financial Analysis Details:|Currency|Financial Analysis fields that apply to the customer. (see [Customer Financial Category|http://help.fernsoftware.com/index.php/Customer_Financial_Category]) Add financial categories required for customer.|No|
+||Excluded Assets:|Currency|assets that excluded from current assets.|No|
+||Collateral Amount:|Currency|Amount added as collateral|No|
+||Amount applied:|Currency|Loan amount|No|
+||Maturity date:|Date|Final payment date|No|
+||Loan term:|number|Number of loan terms (tenure)|No|
+||Installment amount:|Currency|Repayment amount per loan term|No|
+||Ratios||
+||Working capital:|Number (calculated)|Current Assets – Current Liabilities|No|
+||Gross Margin:|Number (calculated)|1 – (Cost of Goods Sold/Monthly Sales)|No|
+||Debt/Equity:|Number (calculated)|(Total Liabilities + Amount Applied) / Equity|No|
+||Inventory Turnover:|Number (calculated)|Cost of Goods Sold / Inventory (Inventory 1 + Inventory 2)(Inventory can be marked in Customer financial categories see [Customer Financial Category|http://help.fernsoftware.com/index.php/Customer_Financial_Category])|No|
+||Installment Coverage :|Number (calculated)|Instalment Amount / Household Surplus|No|
+||Loan Recommendation:|Number (calculated)|Amount Applied / Working Capital|No|
+||Guarantor Coverage :|Number (calculated)|Collateral Amount / Amount Applied|No|","28800","0","0"
+"10478","97","JIRAUSER10401",NULL,"14400","0","14400"
+"10479","98","JIRAUSER10000","# Table de config pour 'Check Guarantor + Collateral'
+ # Table de config pour détéreminer le approval level (Based on amount?? TBC with Hatem)
+ # Test Unitaire
+ # Documentation sur confluence","28800","0","28800"
+"10480","99","JIRAUSER10401","Send mail selon type de notification (a suivre [Confluence - notification|http://172.16.4.180:8090/display/WCC/Notifications])
+
+Vérifier la fonctionnalité participants {color:#00875a}*DONE*{color}","28800","0","28800"
+"10481","100","JIRAUSER10100",NULL,"28800","0","28800"
+"10482","101",NULL,"# Paramétrage- définir les KPI par user (objectifs...)
+ # Activer une batch 
+ ## Paramétrer les actions possibles","115200","115200",NULL
+"10483","102","JIRAUSER10100","# Table de config pour 'Check Guarantor + Collateral'
+ # Table de config pour détéreminer le approval level (Based on amount?? TBC with Hatem)
+ # Test Unitaire
+ # Documentation sur confluence","28800","0","18000"
+"10484","103","JIRAUSER10101","Tous les écrans avec chemin de navigation","86400","0","28800"
+"10485","19","JIRAUSER10400",NULL,"14400","0","28800"
+"10500","20","JIRAUSER10000",NULL,"28800","14400","14400"
+"10501","21","JIRAUSER10000",NULL,"28800","0","43200"
+"10502","22","JIRAUSER10000",NULL,"14400","0","14400"
+"10503","104","JIRAUSER10101",NULL,"14400","0","14400"
+"10504","23","JIRAUSER10400",NULL,"14400","0","28800"
+"10505","105","JIRAUSER10401","* Service loan process
+ * integration dans l'IHM (FE)","43200","0","14400"
+"10506","106","JIRAUSER10401","Service 
+
+integration IHM 
+
+ ","14400","0",NULL
+"10507","107","JIRAUSER10000",NULL,"28800","0","28800"
+"10508","108","JIRAUSER10401","Le serveur de recette:
+IP : 172.16.4.184
+Mot de passe : root / T*****
+Mot de passe : tdev / T*****","7200","0","7200"
+"10509","109","JIRAUSER10401","[http://localhost:8093/load-data-abacus/financial-analysis/178]
+{
+        ""currentAssets"": 0.000000,
+        ""fixedAssets"": 0.000000,
+        ""assets"": 0.000000,
+        ""currentLiabilities"": 0.000000,
+        ""fixedLiabilities"": 0.000000,
+        ""totalLiabilities"": 0.000000,
+        ""equity"": 0.000000,
+        ""monthlySales"": 0.000000,
+        ""cotsOfGoodSold"": 0.000000,
+        ""grossProfit"": 0.000000,
+        ""monthlyExpense"": 0.000000,
+        ""netProfit"": 0.000000,
+        ""otherIncome"": 0.000000,
+        ""familyExpense"": 0.000000,
+        ""householdSurplus"": 0.000000,
+        ""excludedAssets"": 0.0000,
+        ""collateralAmount"": 0.0000,
+        ""applyAmountTotal"": 1000.0000,
+        ""maturityDate"": ""2015-09-01"",
+        ""loanTerm"": 12,
+        ""installement"": 93.6700,
+        ""workingCapital"": 0.000000,
+        ""grossMargin"": 0.000000,
+        ""debtEquity"": 0.000000,
+        ""inventoryTurnover"": 0.000000,
+        ""installmentCoverage"": 0E-17,
+        ""loanRecommendation"": 0E-17,
+        ""guarantorCoverage"": 0.0000
+    }","28800","0","21600"
+"10510","110","JIRAUSER10100",NULL,"28800","0",NULL
+"10511","111","JIRAUSER10100",NULL,"3600","0","28800"
+"10512","112","JIRAUSER10101",NULL,"14400","0",NULL
+"10513","113","JIRAUSER10101",NULL,"28800","0","10800"
+"10514","114","JIRAUSER10100","Cusomer Photo + Name + KPI + button (More...)
+
+When we click on the button : display the client info ","21600","0","18000"
+"10515","115","JIRAUSER10401",NULL,"7200","0","7200"
+"10516","116","JIRAUSER10100",NULL,"3600","0","3600"
+"10517","117","JIRAUSER10401","Service 
+
+integration IHM 
+
+ ","57600","0","14400"
+"10518","118","JIRAUSER10000",NULL,"14400","0","7200"
+"10519","119","JIRAUSER10100","* Enlever calendrier et le menu a droite
+ * Minimiser l'espace dans dashboard
+ * Ajouter tab Review
+ * Ajouter la date du jour en dessous de ""My Dashboard""","3600","0","3600"
+"10520","120","JIRAUSER10401",NULL,"28800","0","43200"
+"10521","121","JIRAUSER10100",NULL,"28800","0","28800"
+"10522","122","JIRAUSER10000","Average arrears days
+
+Number arriears schedules","14400","0","50400"
+"10523","123","JIRAUSER10101",NULL,"14400","0","7200"
+"10524","124","JIRAUSER10101",NULL,"14400","0","10800"
+"10525","125","JIRAUSER10100",NULL,"28800","0","28800"
+"10526","126",NULL,"* Motif de rejet","28800","0",NULL
+"10527","127","JIRAUSER10401","* Reject reason 
+ * Dévelopepr les actions","14400","0",NULL
+"10528","128","JIRAUSER10401","* Decline reason
+ * Développer les actions","28800","0","7200"
+"10529","129","JIRAUSER10600",NULL,"28800","0","21600"
+"10530","130","JIRAUSER10100",NULL,"57600","0","57600"
+"10531","131","JIRAUSER10501",NULL,"14400","0","43200"
+"10532","132","JIRAUSER10501",NULL,"14400","0","14400"
+"10534","134",NULL,NULL,"288000","288000",NULL
+"10536","136",NULL,NULL,"28800","28800",NULL
+"10537","137",NULL,NULL,"28800","28800",NULL
+"10539","139","JIRAUSER10100","|-- add new user|
+|-- enable/disable user|
+|-- update mail / nom / prénom|
+|-- affectation to Group|
+|-- Password|
+|-- Language|
+|-- Notification|","57600","57600",NULL
+"10540","140","JIRAUSER10101",NULL,"7200","0","7200"
+"10541","141","JIRAUSER10101",NULL,"7200","0","7200"
+"10542","142","JIRAUSER10101",NULL,"7200","0","7200"
+"10543","143","JIRAUSER10401",NULL,"0","0","7200"
+"10544","144","JIRAUSER10501",NULL,"28800","0","28800"
+"10545","145","JIRAUSER10501",NULL,"28800","0","28800"
+"10546","146",NULL,NULL,"28800","28800",NULL
+"10547","147","JIRAUSER10501","Permettre la réassignation d'une application
+
+changer le OWNER de la tâche
+
+A définir par [~soumaya.barkallah]:
+ * à qui on peut assigner
+ * modification IHM","43200","0","21600"
+"10548","148","JIRAUSER10600",NULL,"28800","0","72000"
+"10550","150",NULL,NULL,"28800","28800",NULL
+"10552","152","JIRAUSER10501","* Setting BE
+ * Batch 
+ * MAJ status application
+ * Notification avec email
+ * MAJ FE","86400","0","28800"
+"10553","153",NULL,NULL,"86400","86400",NULL
+"10554","154",NULL,NULL,"14400","0",NULL
+"10555","155","JIRAUSER10101",NULL,"28800","0","14400"
+"10556","24","JIRAUSER10400",NULL,"86400","0","129600"
+"10557","156","JIRAUSER10401",NULL,"0","0",NULL
+"10558","157","JIRAUSER10401"," 
+
+ ","28800","0","14400"
+"10559","158","JIRAUSER10501","L'agent fait parite de l'agence
+
+ ","43200","0","79200"
+"10560","159","JIRAUSER10100","display visit reports (history) and when the user clicks on a version open a popup","43200","0","43200"
+"10561","160","JIRAUSER10401",NULL,"14400","0","14400"
+"10562","161","JIRAUSER10401","* Approver should be able to update the approved amount
+ * {color:#de350b}Popup afficher le champs pour updater le montant a approver avec bouton calculer (consommer les API juste niveau ACM){color}
+ ** {color:#de350b}Loan amount{color}
+ ** {color:#de350b}Monthly installment{color}
+ ** {color:#de350b}Duration{color}
+ *** {color:#de350b}Save to ACM{color}
+ * When the loan will be approved, then send the new schedule to Abacus
+
+ ","0","0","28800"
+"10563","162","JIRAUSER10401","Review tab: ordre comme décrit dans les specs
+
+Template : [http://172.16.4.180:8090/display/WCC/QA-+My+Dashboard]
+
+ 
+
+!image-2020-04-13-18-21-58-691.png|width=895,height=457!
+
+ ","14400","0","3600"
+"10564","163","JIRAUSER10100","* Amount format (à confirmer) 
+ * Status couleur 
+ * Progress Bar  ","14400","0",NULL
+"10565","164","JIRAUSER10100","à ajouté comme décrit dans le doc d'analyse","7200","0","7200"
+"10600","165","JIRAUSER10101",NULL,"7200","0","3600"
+"10601","166","JIRAUSER10101",NULL,"10800","0","7200"
+"10602","167","JIRAUSER10401",NULL,"3600","0","3600"
+"10603","168","JIRAUSER10401",NULL,"28800","0","14400"
+"10700","169","JIRAUSER10401",NULL,"7200","0","14400"
+"10701","170","JIRAUSER10000",NULL,"21600","0","21600"
+"10702","25","JIRAUSER10000",NULL,"86400","21600","64800"
+"10703","26","JIRAUSER10000",NULL,"14400","0","14400"
+"10704","171","JIRAUSER10401","Serveur alfresco ged : 172.16.4.185","28800","0","28800"
+"10705","172","JIRAUSER10401","[~soumaya.barkallah], [~Hatem.Dhahri] , [~Yesser.Somai], [~Abdelkarim]
+
+Liste des REST mis en place dans le micro-service ""*ged-service*"" afin de communiquer avec le GED :
+ # Recherche par un Tag :
+ ** *[http://localhost:8080/ged-service/documents/find/CIN*]
+ ** *CIN* : exemple de tags a passer comme param
+ ** Requete : *GET*
+ # Recherche par un e liste des tags + choix de limité le nombre des documents récupéré 
+
+ * 
+ ** [*http://localhost:8080/ged-service/documents/find-by-tags*]
+ ** a passer comme paramètre un objet JSON : Exemple : * \{ ""all"":""true"", ""tags"":[""CIN""]}
+ ** Requete *: POST*
+
+ # Recherche document by ID (id dans le GED)
+ ** [*http://localhost:8080/ged-service/documents/document/**10e9bbd7-eccc-41ab-b7b7-5585c715232d*]
+ ** [10e9bbd7-eccc-41ab-b7b7-5585c715232d|http://localhost:8080/ged-service/documents/document/10e9bbd7-eccc-41ab-b7b7-5585c715232d] : ID d'une document dans le GED (exemple de test)
+ ** Requete : *GET*
+ # Display doc by given ID : REST qui retourne le document recuperé du GED sous format byte[] => Exemple d’utilisation : pour visualiser un document 
+ ** [*http://localhost:8080/ged-service/documents/display/10e9bbd7-eccc-41ab-b7b7-5585c715232d*]
+ ** Requete : *GET*
+ # Check Document by ID
+ ** [*http://localhost:8080/ged-service/documents/isExist/10e9bbd7-eccc-41ab-b7b7-5585c715232d*]
+ ** check si le document avec l'ID passer en param existe dans le GED ou pas
+ ** Requete : *GET*
+ # Delete Document by ID
+ ** *[http://localhost:8080/ged-service/documents/10e9bbd7-eccc-41ab-b7b7-5585c715232d]*
+ ** Requete : *DELETE*
+ # upload liste des documents
+ ** [*http://localhost:8080/ged-service/documents/upload-ged*]
+ ** la liste des documents de type *java.io.File*
+ ** Requete : *POST*
+ # upload liste des documents ""multipart"" + tags + path de stockage dans le GED
+ ** [*http://localhost:8080/ged-service/documents/*]
+ ** paramètres :
+ ### List<org.springframework.web.multipart.MultipartFile> files  
+ ### List<String> tags
+ ### String pathGED
+ ** Requete : *POST*
+
+ ","28800","0","21600"
+"10706","173","JIRAUSER10501",NULL,"14400","0","14400"
+"10707","174","JIRAUSER10501",NULL,"7200","0","7200"
+"10708","175","JIRAUSER10501",NULL,"7200","0","7200"
+"10709","176","JIRAUSER10100","Add planned visit date in the history table","3600","0","3600"
+"10710","177","JIRAUSER10401",NULL,"14400","0","14400"
+"10711","178","JIRAUSER10401",NULL,"7200","0","7200"
+"10712","179","JIRAUSER10401",NULL,"7200","0","7200"
+"10713","180","JIRAUSER10401",NULL,"14400","0","7200"
+"10714","181","JIRAUSER10100"," 
+ * Age {color:#ff0000}missing{color}
+ * Registered on: Date that the customer joined the organisation {color:#ff0000}missing{color}
+ * KIPs {color:#ff0000}missing + color green instead of yellow{color}
+ * other info to be added?","14400","14400",NULL
+"10715","182","JIRAUSER10401","Change Loan Details with Loan Application Details
+
+Traduction Solde --> Balance
+
+Missing currency
+
+ ","3600","0","7200"
+"10716","183","JIRAUSER10401","# Update the component name: Customer Account{color:#ff0000}s {color}
+ # Change the ""+"" and ""-"" with colored icons
+ #  Translate Solde (Balance) and Statut (Status) 
+ #  remove the number in the status (1:APPLIED) 
+ # The status in the detailed view is not correct (0) ","21600","0","10800"
+"10717","184","JIRAUSER10401","The process is not correct and the status in the screen too.","7200","0",NULL
+"10718","185","JIRAUSER10501","Please refer to the screen.
+
+Same for Collateral screen","14400","0","14400"
+"10719","186","JIRAUSER10100","When an application has not FV report, the screen is working correctly.
+
+When an application has an existing FV Report:
+ * The save is not working
+ * The  text and the comment are empty
+ * the screen is not working well","28800","0","36000"
+"10720","187","JIRAUSER10401","Screen initial check (see screenshot) : status is wrong
+
+All the remaining screens : the process is on blocked on initial check","3600","0","3600"
+"10721","188","JIRAUSER10401",NULL,"7200","0","10800"
+"10722","189","JIRAUSER10600",NULL,"14400","0",NULL
+"10723","190","JIRAUSER10101",NULL,"1800","0","3600"
+"10725","192","JIRAUSER10100","* Agrandir la police des statuts
+ * ajouter de l'espacement entre les statuts
+ * changer Awaiting Approval par Pending Approval","7200","0","32400"
+"10726","193","JIRAUSER10401","Mettre en place le moteur de workflow (avancement des statuts...)
+
++ Histo loan
+
+ ","28800","0","39600"
+"10727","194","JIRAUSER10401",NULL,"14400","0","14400"
+"10728","195","JIRAUSER10501","écran My tasks à finaliser 
+
+BE
+
+FE","57600","0","57600"
+"10729","196","JIRAUSER10501","Finaliser l'écran my calendar, refaire le popup add event 
+
+ajouter cuser ACM to appointment","28800","0","86400"
+"10730","197","JIRAUSER10100",NULL,"28800","0","36000"
+"10731","198","JIRAUSER10401","[page confluence : Initial Check|http://172.16.4.180:8090/display/WCC/Initial+Check]
+
+Cancel
+
+Next
+
+Reject","57600","0","21600"
+"10732","199","JIRAUSER10401","Prepare all the structure for the workflow actions
+ ","28800","0","21600"
+"10733","200","JIRAUSER10401"," 
+ ","28800","0","7200"
+"10734","201","JIRAUSER10401",NULL,"28800","0","7200"
+"10735","202","JIRAUSER10100"," Upload documents
+
+ Check Required Docs","14400","0","39600"
+"10736","203","JIRAUSER10401"," ","14400","0","3600"
+"10737","204","JIRAUSER10501","Check approval level
+
+Check L1
+
+Check L2
+
+Check L3
+
+Check L4","72000","0","72000"
+"10738","205","JIRAUSER10501","Dont forger to save in the customer notes histo
+
+ ","57600","0","57600"
+"10739","206","JIRAUSER10401","-création table
+
+-développement des méthodes des boutons
+
+ ","14400","0","14400"
+"10740","207","JIRAUSER10100",NULL,"21600","0","21600"
+"10741","208","JIRAUSER10100",NULL,"14400","0","14400"
+"10742","209","JIRAUSER10600","Only view option","3600","0","21600"
+"10743","210","JIRAUSER10501","Add hover on liabilities
+
+BE/FE ( remove hardcoded values)
+
+undifined ???
+
+formatage nombre decimal
+
+ 
+
+ ","14400","0","14400"
+"10744","211",NULL,NULL,"28800","28800",NULL
+"10745","212","JIRAUSER10000","Create table (voir motif rejet)
+
+create service
+
+Remove hardcoded
+
+ ","14400","0","28800"
+"10746","213","JIRAUSER10000","Bonjour [~Haythem.Benizid] ,
+
+Le script ACM-170_Updated.sql contient la mise à jour du script fournie dans le ticket ACM-170.
+
+J'ai changé le status de l'échéance pour obtenir (Payé,Payé partiellement, non payé)
+
+ ","14400","0","7200"
+"10747","214","JIRAUSER10600",NULL,"28800","0","28800"
+"10748","215","JIRAUSER10501","* depuis les loan application dans ACM
+ * composant front ( a valider avec yesser)
+ * dev BE (methode de recherche) ","57600","0","57600"
+"10749","216","JIRAUSER10600","search loans 
+
+account number
+
+if customer not null","28800","0","28800"
+"10750","217","JIRAUSER10401","* ajouter status (update DB)
+ * développement des action des 3 boutons
+
+ ","14400","0","14400"
+"10751","218","JIRAUSER10501",NULL,"28800","0","14400"
+"10752","219","JIRAUSER10501",NULL,"14400","0","14400"
+"10753","220","JIRAUSER10401","* check guarantor collateral
+ * check Document
+ * check information loan","57600","0","43200"
+"10754","221","JIRAUSER10100",NULL,"57600","0","36000"
+"10755","222","JIRAUSER10600",NULL,"28800","0","28800"
+"10756","223","JIRAUSER10401","ALTER TABLE ACM_LOAN ADD PRODUCT_ID INT NULL ;","3600","0","3600"
+"10757","224","JIRAUSER10000","VOIR TABLEAU ACM-190
+
+ALTER TABLE Existante ACM_SETTING_DOCS
+
+Add table DOC_TYPE
+
+ ","7200","0","3600"
+"10800","225","JIRAUSER10401","* update les modeles / DTO
+ * création services REST des nouveaux tables (a voir avec [~soumaya.barkallah])
+ * configuration & utilisation des tables de settings","28800","0","0"
+"10804","229","JIRAUSER10401","@Entity
+@Table(name = ""ACM_DOCUMENTS"")
+public class AcmDocuments","7200","0","28800"
+"10805","230","JIRAUSER10401","See ACM-224
+
+---------------
+
+@Entity
+@Table(name = ""ACM_PRODUCT"")
+public class Product
+
+---------------
+
+@Entity
+@Table(name = ""ACM_SETTING_DOC_PRODUCT"")
+public class SettingDocumentProduct
+
+---------------
+
+@Entity
+@Table(name = ""ACM_SETTING_DOC_TYPE"")
+public class SettingDocumentType ","14400","0","28800"
+"10806","231","JIRAUSER10401",NULL,"14400","0","25200"
+"10807","232","JIRAUSER10600","Créer les services back-end (setting)
+
+sauvgarder les documents clients
+
+Connecter BE/FE
+
+Ajouter le boutons (+ Add New)
+
+Save & Quit à renommer à Save et changer l'action, ne pas sortir de l'écran
+
+Visualize all types of documents
+
+ ","57600","0","115200"
+"10808","233","JIRAUSER10501",NULL,"14400","0","43200"
+"10809","234","JIRAUSER10401",NULL,"57600","28800","28800"
+"10810","235","JIRAUSER10401",NULL,"14400","0","21600"
+"10811","236","JIRAUSER10401","Installation + mise en place (sonar + bamboo)
+
+ ","72000","0","79200"
+"10812","27","JIRAUSER10400",NULL,"14400","0","14400"
+"10813","28","JIRAUSER10000",NULL,"28800","28800",NULL
+"10814","237","JIRAUSER10100","filtre columns a remettre sous es titles
+
+Awaiing Approval - Renommer Pending Approval
+
+Center statuses tabs","14400","0","7440"
+"10815","238","JIRAUSER10100","* Age (year old)
+ * Telephone (tel1|tel2|tel3)
+ * Ajout icon +
+ * Customer Info collapsed for all the screens except Initial check
+ * Traduction à verifier","43200","0","21600"
+"10816","239","JIRAUSER10600","Tableaux approval + customer decision history (consommation BE) 
+
+Add schedule component (Collapsed)","14400","0","14400"
+"10817","240",NULL,NULL,"57600","57600",NULL
+"10818","241","JIRAUSER10501","Update functionality
+
+Delete functionality (calendar)
+
+ ","28800","0","28800"
+"10819","242","JIRAUSER10100","[~soumaya.barkallah]
+
+Fait par Amine missaoui (dqlick)","28800","0","36000"
+"10820","243","JIRAUSER10600","Tous les composant doivent etre parametrables ayant une valeur par defaut","14400","0","14400"
+"10821","244","JIRAUSER10501",NULL,"57600","0","115200"
+"10822","245","JIRAUSER10401","URL Serveur : 172.16.4.184
+
+user
+ * login : tdev
+ * pwd : Ta******","3600","0","3600"
+"10823","246","JIRAUSER10401",NULL,"3600","0","3600"
+"10824","247","JIRAUSER10401",NULL,"10800","0","10800"
+"10825","248","JIRAUSER10501","{color:#ff0000}*No - Yes*{color}
+
+*Cancel*: Are you sure you want to cancel the form? 
+
+*Approve*: Are you sure you want to approve the loan? 
+
+*Reject*: Are you sure you want to reject the loan?
+
+*Submit*: Are you sure you want to submit the loan for approval?
+
+*Agreed*: The loan application will be approved on the CBS system, are you sure you want to proceed?
+
+*Declined*: Are you want to save the form?
+
+*Delete*: Are you sure you want to delete -----?
+
+*Previous*: Are you sure you want to exit this screen, nothing will be saved?  (when there is a crud in the screen)","14400","0","18000"
+"10826","249","JIRAUSER10401","habilitation par ecran
+
+Table IHM Root
+
+Table habilitation
+
+ ","57600","0",NULL
+"10827","250","JIRAUSER10401","Add 'ask for review'
+
+Add assign to (system user) before inform customer
+
+[~soumaya.barkallah] update fichier excel","1800","0","10800"
+"10828","251","JIRAUSER10100"," 
+
+!image-2020-06-29-17-09-24-298.png!
+
+ 
+
+!image-2020-06-29-17-09-45-771.png!","3600","0","3600"
+"10829","252","JIRAUSER10100",NULL,"43200","0","43200"
+"10830","253","JIRAUSER10401","user|porfolio|is default
+
+only one default user per agence","28800","0","28800"
+"10831","254","JIRAUSER10101","Setting and user guide
+
+fichier excel","28800","0","14400"
+"10832","255","JIRAUSER10401","Analyser les raisons de rejet/ Cancel 
+
+Mapping ACM/Abacus","7200","0","10800"
+"10833","256","JIRAUSER10401","Config dans ABACUS : *select * from CUProductLoanProcesses*","14400","0","21600"
+"10834","257","JIRAUSER10101",NULL,"28800","28800",NULL
+"10835","258","JIRAUSER10401","BE- Ajouter le méchanisme
+
+FE- Ajouter bouton dans le setting ""Refresh Setting"" ","43200","0","64800"
+"10836","259","JIRAUSER10600",NULL,"43200","0","43200"
+"10837","260","JIRAUSER10600",NULL,"14400","0","14400"
+"10838","261","JIRAUSER10101",NULL,"14400","0","14400"
+"10839","262","JIRAUSER10501"," 
+  Check Guarantor","57600","0","57600"
+"10840","263","JIRAUSER10501","Check collateral","28800","0","14400"
+"10841","264","JIRAUSER10501"," Submit LA
+
+Add Financial Analysis","28800","0","28800"
+"10842","265","JIRAUSER10100","Reject LA on CBS
+
+Initial check","43200","0","57600"
+"10843","266","JIRAUSER10501","check Guarantor/Collateral param
+
+Field visit","28800","0","28800"
+"10844","267","JIRAUSER10600",NULL,"7200","0","7200"
+"10845","268","JIRAUSER10600","Customer accounts/Schedule/Any others??","7200","0","7200"
+"10846","269","JIRAUSER10401","Un seul composant au lieu de 2.
+
+Order by date asc
+
+agrandir la colonne note (popup)
+
+ ","21600","0","43200"
+"10847","270","JIRAUSER10600","loan agreement 
+
+signed schedule
+
+guarantor agreement ","21600","0","14400"
+"10900","271","JIRAUSER10401","!image-2020-06-15-10-20-54-059.png|width=733,height=283!","28800","0",NULL
+"10902","273","JIRAUSER10600","{color:#00875a}Success! (/){color}
+
+{color:#00875a}Changes have been saved Successfully!{color}
+
+ 
+
+ 
+
+ ","28800","0","14400"
+"10903","274","JIRAUSER10501",NULL,"28800","0","28800"
+"10904","275","JIRAUSER10401",NULL,"7200","0","7200"
+"10905","276","JIRAUSER10101","Quel path choisir?
+ *  C/G - **Considérer que les guaranties ne sont pas requises et donc le workflow va passer à l'étape Upload documents
+ *  Documents:  ajouter un message à l'écran:
+ ** {color:#FF0000}*Aucun document n'est configuré pour ce produit de prêt, veuillez contacter votre administrateur*{color}
+ ** {color:#FF0000}*No document configured for this loan product, please contact your administrator*{color}
+
+ ","14400","0","7200"
+"10906","277","JIRAUSER10101","Put Calendar and planning in the same page
+
+filter by status
+
+remove the cancel
+
+ ","28800","28800",NULL
+"10907","278","JIRAUSER10600",NULL,"14400","0","14400"
+"10908","279","JIRAUSER10501",NULL,"7200","0",NULL
+"10909","280","JIRAUSER10100","Calculator
+
+Reject/Cancellation
+
+Approval
+
+Login","0","0",NULL
+"10910","281","JIRAUSER10600","Autres modifications faites par l'équipe:
+
+I18N approval / Field Visit (écran approval)
+
+ajout pagination  schedule dans approval screen
+
+enlever la roue jaune","7200","0","7200"
+"10911","282","JIRAUSER10101",NULL,"0","0",NULL
+"10912","283","JIRAUSER10101","54544814 | 21628438351
+ 54-544-814 | (216)28-438-351
+ ","0","0",NULL
+"10913","284","JIRAUSER10401","avec  @Moez","21600","0","21600"
+"10914","285","JIRAUSER10501","[http://172.16.4.180:8090/pages/viewpage.action?pageId=4030759]
+
+ ","14400","0","7200"
+"10915","286","JIRAUSER10101",NULL,"0","0",NULL
+"10916","287","JIRAUSER10100",NULL,"7200","0","21600"
+"10917","288","JIRAUSER10600",NULL,"28800","0","14400"
+"10918","289","JIRAUSER10600",NULL,"28800","0","21600"
+"10919","290","JIRAUSER10600","*version*: 0.1.19
+
+*Environnement* : QA
+----
+h5. *Ecrans:*
+
+Tous les écrans d'ajout de documents
+----
+h5. Etapes de reproduction :
+ # Ajouter document 
+ # Click sur Save
+
+----
+h5. Résultat attendu :
+
+Le document est enregistré une SEULE fois
+----
+h5. Résultat obtenu :
+
+Quand je clique plusieurs fois sur le bouton save, le document est enregistré autant de fois que les click et la fenetre de confirmation est affiché en conséquence","14400","0","7200"
+"10920","291","JIRAUSER10401",NULL,"14400","0","14400"
+"10921","292","JIRAUSER10401","IF OBJECT_ID('dbo.ACM_SETTING_GUARANTOR_COLLATERAL', 'U') IS NOT NULL
+
+DROP TABLE dbo.ACM_SETTING_GUARANTOR_COLLATERAL;
+
+
+CREATE TABLE ACM_SETTING_GUARANTOR_COLLATERAL(
+    ID_ACM_SETTING_GUARANTOR_COLLATERAL BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+
+ID_PRODUCT BIGINT NOT NULL,
+
+CODE VARCHAR (256) NOT NULL,
+
+key_ABACUS VARCHAR (256) NOT NULL,
+
+DESCRIPTION VARCHAR (512) NULL,
+
+MANDATORY bit NOT NULL,
+
+DATE_DEBUT date NULL,
+
+DATE_FIN date NULL,
+
+ACM_ENABLED BIT NOT NULL,
+
+DATE_INSERTION DATE NULL,
+
+INSERT_BY  VARCHAR (256) NULL,
+
+DATE_LAST_UPDATE DATE NULL,
+
+UPDATED_BY  VARCHAR (256) NULL,
+
+ACM_VERSION INT NULL,);","0","0",NULL
+"10922","29","JIRAUSER10000",NULL,"14400","14400",NULL
+"10924","31","JIRAUSER10000",NULL,"14400","14400",NULL
+"10925","32","JIRAUSER10000",NULL,"14400","14400",NULL
+"10926","33","JIRAUSER10000",NULL,"14400","0","86400"
+"10927","34","JIRAUSER10000",NULL,"28800","28800",NULL
+"10928","35","JIRAUSER10400",NULL,"7200","7200",NULL
+"10929","36","JIRAUSER10400","{color:#FF0000}Durant cette étiquette j'ai travaillé sur la visualisation du remboursement que lors du jour courant. {color}","14400","0","14400"
+"10931","38","JIRAUSER10400",NULL,"28800","14400","14400"
+"10933","40","JIRAUSER10400",NULL,"28800","0","57600"
+"10934","41","JIRAUSER10400",NULL,"28800","0","28800"
+"10936","43","JIRAUSER10400",NULL,"7200","0","3600"
+"10937","44","JIRAUSER10400",NULL,"14400","0","57600"
+"10938","45","JIRAUSER10400",NULL,"57600","28800","28800"
+"10939","46","JIRAUSER10400",NULL,"57600","0","86400"
+"10940","47","JIRAUSER10400",NULL,"3600","0","3600"
+"10941","293","JIRAUSER10401",NULL,"7200","0","7200"
+"10942","294","JIRAUSER10401","Ajout des nouveaux colonnes :
+
+CULoan.CreationDate AS CREATION_DATE,
+
+CULoanPart.TermPeriodNum AS TERM_PERIOD,
+
+PaymentPeriod.AdjDescription AS PERIOD_FREQ,
+
+CULoanPart.IssueDate AS ISSUE_DATE,
+
+CULoanPart.IssueFeeAmount AS ISSUE_FEE_AMOUNT,
+
+CUProductLoanInterest.BaseRate + CUProductLoanInterest.Rate AS PRODUCT_RATE, 
+ CULoanPart.GracePeriod AS GRACEPERIOD,
+
+CUAccountIndustryCode.Code AS ACCOUNTINDUSTRYCODE_CODE, 
+ CUAccountIndustryCode.Description AS ACCOUNTINDUSTRYCODE_DESCRIPTION,
+
+CUProductLoanReasons.Code AS PRODUCTLOANREASONS_CODE,
+
+CUProductLoanReasons.Description AS PRODUCTLOANREASONS_DESCRIPTION,
+
+CuLoan.STATUS","14400","0","25200"
+"11000","295","JIRAUSER10401",NULL,"14400","0","43200"
+"11001","296","JIRAUSER10501",NULL,"14400","0","7200"
+"11002","297","JIRAUSER10600",NULL,"14400","0","14400"
+"11003","298","JIRAUSER10501",NULL,"1800","0","30"
+"11004","299","JIRAUSER10100",NULL,"14400","0","14400"
+"11005","300","JIRAUSER10600",NULL,"14400","0","14400"
+"11007","302","JIRAUSER10100",NULL,"7200","0","7200"
+"11008","303","JIRAUSER10501",NULL,"57600","0","57600"
+"11009","304","JIRAUSER10101","ca ete decidé d afficher l ecran d approbabtion avec bouton exit","0","0",NULL
+"11010","305",NULL,NULL,"28800","28800",NULL
+"11012","307","JIRAUSER10501",NULL,"14400","0","12600"
+"11013","308","JIRAUSER10600",NULL,"14400","0","14400"
+"11014","309","JIRAUSER10401",NULL,"14400","0","7200"
+"11015","310","JIRAUSER10401",NULL,"28800","0","28800"
+"11016","311","JIRAUSER10100",NULL,"14400","0","14400"
+"11017","312","JIRAUSER10501","_incluant review_
+
+_previous/ next controls in all steps_","57600","0","57600"
+"11018","313","JIRAUSER10401","liaison entre USER / LOAN :
+ # loan -> *portfolioID*
+ # user -> *portfolioID*
+
+loan sera affecter automatiquement au user ayant le même portfolioID (update colonne ""owner"" dans la table loan)
+
+*{color:#de350b}NB{color}* : en cas ou pas de correspondance dans la table -> on affect le loan au user ""ADMIN""","14400","0","50400"
+"11019","314","JIRAUSER10401",NULL,"3600","0","3600"
+"11020","315","JIRAUSER10501",NULL,"10800","0","14400"
+"11021","48","JIRAUSER10400",NULL,"14400","0","21600"
+"11022","316","JIRAUSER10600","Ajout pour les deux écrans :
+ # add Docume,ts
+ # Upload signed agreements
+
+ 
+ * {color:#FF0000}*Aucun document n'est configuré pour ce produit de prêt, veuillez contacter votre administrateur*{color}
+ * {color:#FF0000}*No document configured for this loan product, please contact your administrator*{color}
+
+{color:#FF0000} {color}","7200","0","7200"
+"11023","317","JIRAUSER10401","update batch to check user ID extern & user name","28800","0","14400"
+"11024","318","JIRAUSER10401",NULL,"28800","0","57600"
+"11026","320",NULL,"to be discussed","28800","0",NULL
+"11027","321","JIRAUSER10401",NULL,"14400","0","21600"
+"11028","322","JIRAUSER10401","Groupe utilisé a la date +*02/06/2020*+:
+
+ 
+|*{color:#172b4d}ID_ACM_GROUPE{color}*|*{color:#172b4d}CODE{color}*|*{color:#172b4d}LIBELLE{color}*|*{color:#172b4d}DESCRIPTION{color}*|
+|1|ADMINISTRATOR|Administrator|Groupe pour Administrator|
+|19|CONSEILLER_CREDIT|Conseiller Crédit|Groupe pour Conseiller Crédit|
+|21|CONSEILLER_ACCOMPAGNEMENT|Conseiller Accompagnement|Groupe pour Conseiller Accompagnement|
+|22|DIRECTEUR_AGENCE|Directeur d'Agence|Groupe pour Directeur d'Agence|
+|27|CHARGE_RECOUVREMENT|Chargé Recouvrement|Groupe pour Chargé Recouvrement|","57600","0","21600"
+"11029","323","JIRAUSER10100","*URL* : [https://172.16.4.182:8080/api/login]
+
+*Method* : Post
+ *Body Type* : x-wwww-form-urlencoded
+ *Body* :
+ - username : ACM
+ - password : 12345
+ - deviceId : ""default""","3600","0","3600"
+"11030","324","JIRAUSER10401",NULL,"14400","0","7200"
+"11031","325","JIRAUSER10100",NULL,"14400","0","18000"
+"11032","326","JIRAUSER10100",NULL,"10800","0","10800"
+"11034","328","JIRAUSER10401",NULL,"14400","0","14400"
+"11035","329","JIRAUSER10100",NULL,"14400","0","14400"
+"11036","330","JIRAUSER10501","Collateral in ACM +la description est la même qu'on a crée dans ABACUS !!!+","7200","0","7200"
+"11037","331","JIRAUSER10401",NULL,"0","0",NULL
+"11038","332","JIRAUSER10600",NULL,"14400","0","14400"
+"11039","333","JIRAUSER10401",NULL,"14400","0","14400"
+"11040","334","JIRAUSER10501",NULL,"7200","0","7200"
+"11041","335","JIRAUSER10401","- création table ""loan_participants""
+
+- rectifier la recherche de sort tous les participants peuvent suivre l'avancement du loan","28800","0","72000"
+"11042","49","JIRAUSER10400","Bonjour,
+
+Le nombre de comptes actifs n'est pas correcte.
+
+Le fichier ""Compte actifs.sql"" contient la requête qui permet de calculer le nombre des comptes actifs.
+
+Les comptes actifs sont les comptes qui ont une balance différente de 0.
+
+Même un compte avec une balance négative doit figurer dans la liste des comptes actifs.","28800","28800",NULL
+"11043","50","JIRAUSER10400","Le montant totale décaissé avant 01/01/2017 n'est pas correcte.
+
+Veuillez trouver ci-joint la requête utilisé dans le test","14400","14400",NULL
+"11044","51","JIRAUSER10400","Lors du test, j'ai constaté que la date de remboursement du crédit n'est pas trouvable dans le DWH. (La date où la balance est devenu égale à 0.","14400","14400",NULL
+"11045","52","JIRAUSER10400","La somme du principale theorique n'est pas conforme au montant affiché dans Abacus.
+
+Veuillez trouver ci-joint la requête utilisé dans les tests.
+
+ ","7200","7200",NULL
+"11046","53","JIRAUSER10400","La somme des intérêts theorique n'est pas conforme au montant affiché dans Abacus.
+
+Veuillez trouver ci-joint la requête utilisé dans les tests.
+
+ ","7200","7200",NULL
+"11047","54","JIRAUSER10400","Le montant principal en arriéré n'est pas conforme au montant affiché dans Abacus.
+
+PS : Principal arriéré =  Principal theorique - Pricipal Payé ( 0 en cas de valuer négative)","7200","7200",NULL
+"11048","55","JIRAUSER10400","Le montant intérêt en arriéré n'est pas conforme au montant affiché dans Abacus.
+
+PS : Intérêt arriéré =  Intérêt theorique - Intérêt Payé ( 0 en cas de valuer négative)","7200","7200",NULL
+"11049","56","JIRAUSER10400","Le nombre de jour en arriéré n'est pas correcte.
+
+PS : nombre de jours  = différence entre la date de paiment theorique - date de paiement pratique (mettre 0 si la valeur est négative)","14400","14400",NULL
+"11051","57","JIRAUSER10400","Le calcul du PAR n'est pas correcte (peut être lié au nombre de jour en retard).
+
+PS : 9 jours de retard  = PAR 15
+
+ ","7200","7200",NULL
+"11052","58","JIRAUSER10400","Le calcul de la provision spécifique et général n'est pas correcte (peur être parceque le nombre de jour de retard n'est pas calculer correctement).
+
+PS : Merci de voir les régles d'affaires dans le fichier excel ci-joint.","7200","7200",NULL
+"11053","337","JIRAUSER10600",NULL,"7200","0","7200"
+"11054","338","JIRAUSER10100",NULL,"1800","0","1800"
+"11055","339","JIRAUSER10100","* DB Setting table (SETTING REQUIRED BPM)
+ ** FIELD_VISIT
+ ** AUDIT_REVIEW
+ ** RISK_REVIEW
+ * Modify setting screen (G/C)","14400","0",NULL
+"11056","340","JIRAUSER10600",NULL,"7200","0","7200"
+"11058","59","JIRAUSER10400","Les statuts des prêts ne sont pas à jour dans la table  Fact Account.
+
+C'est a dire, les status sont pris d'Abacus tels qu'ils sont dans la colonne CuLoan.status sans contrôle.
+
+Par exemple un crédit X à un statut = 4 du 21/05/2018 (jour de décaissement) aux 20/07/2019 puis le 21/07/2019, le crédit passe en perte donc on le trouve avec un statut de passage en perte dans toute la période de chargement dans la table Fact Account. ","14400","14400",NULL
+"11059","342","JIRAUSER10100",NULL,"7200","0","7200"
+"11060","343","JIRAUSER10501",NULL,"7200","0","7200"
+"11061","344","JIRAUSER10600","add icon
+
+responsive table
+
+ ","14400","0","7200"
+"11062","345","JIRAUSER10600","Add header with loop icon
+
+add footer
+
+account number to be a text fileld instead of auto complete with mask 
+
+reset instead of refresh
+
+search with ""S""","28800","0","21600"
+"11063","346","JIRAUSER10600",NULL,"7200","0","7200"
+"11064","347","JIRAUSER10600",NULL,"7200","0","7200"
+"11065","348","JIRAUSER10501",NULL,"14400","0","14400"
+"11066","349","JIRAUSER10100",NULL,"28800","0","28800"
+"11067","350","JIRAUSER10401","!image-2020-06-18-10-18-53-657.png!","28800","0","21600"
+"11068","351","JIRAUSER10501","only when status workflow after approval
+
+ ","28800","0","10800"
+"11069","352","JIRAUSER10600",NULL,"7200","0","7200"
+"11070","353","JIRAUSER10401","BE/FE","14400","0","14400"
+"11071","354","JIRAUSER10101","Je propose d'ajouter les rapport agreement dans ACM :
+
+ca va eviter de configurer 2 niveau dapprobation dans ABACUS
+
+Ca suit le workflow
+
+le conseiller crédit, une fois le pret accepté, télécharge les documents a signer, et les scanne dans le GED apres signature et une fois finish, le statut est ready for disbursment et notifier le financier.","7200","0","3600"
+"11072","355","JIRAUSER10600","when status in:
+ * Disbursment & Case closure
+ * cancelled/Declined
+ * rejected
+
+afficher l'écran approval avec seulement le bouton exit
+
+ ","14400","0","14400"
+"11073","356","JIRAUSER10501","changer le statut dans le workflow
+
+mettre a jour le dashboard onglet cancelled (cancelled+declined)","14400","0","14400"
+"11074","357","JIRAUSER10100","comme dans l'ecran approval (par defaut fermé)","14400","0","7200"
+"11076","359","JIRAUSER10501",NULL,"0","0",NULL
+"11077","360","JIRAUSER10100","Demande license
+
+installation","28800","0","28800"
+"11078","361","JIRAUSER10501","Calculate (FE)
+
+le reste BE","14400","0","14400"
+"11079","362","JIRAUSER10501","Check approval level
+
+Cancel LA on CBS","28800","0","28800"
+"11080","363","JIRAUSER10100",NULL,"86400","0","100800"
+"11081","364","JIRAUSER10401","!image-2020-06-15-10-20-46-594.png|width=748,height=289!","28800","0","57600"
+"11082","365","JIRAUSER10401","Add Customer number in ACM +except+ in dashboard list (only search)
+
+Name [number]","28800","0","43200"
+"11083","366","JIRAUSER10100",NULL,"7200","0","7200"
+"11084","367","JIRAUSER10401","Quand je clique sue sort sur n'importe quelle colonne, le titre disparait","14400","0","14400"
+"11085","368","JIRAUSER10501",NULL,"3600","0","3600"
+"11086","369","JIRAUSER10600","# définir les types de documents possible
+ # définir la taille maximale
+ # gérer les messages d erreurs si le type n est pas supporté ou la taille n est pas adéquate","28800","0","7200"
+"11088","371","JIRAUSER10401","++++ filtres ( exemple date)","72000","0","100800"
+"11089","372","JIRAUSER10501","Customer + loan account fields
+
+CRM : Planning + calendar screens
+
+GED: Find + upload screens","28800","0","28800"
+"11090","373","JIRAUSER10100",NULL,"7200","0","1800"
+"11091","374","JIRAUSER10600",NULL,"28800","0","28800"
+"11092","375","JIRAUSER10100","Quand on change d'un écran à un autre, la fonctionnalité ne marche plus","28800","0","1800"
+"11093","376","JIRAUSER10600","* Photo client
+ ** configuré dans les documents de type client 
+ ** enregistré dans le GED
+ ** lu à partir du GED
+ ** si non dispo afficher ANONYM photo
+ * Photo user: afficher ANONYM photo (à développer plustard avec le setting user)","28800","0","28800"
+"11094","377","JIRAUSER10600","002-00002548: aucune etoile
+002-00027197: une seule etoile ???
+ ","1800","0","1800"
+"11095","60","JIRAUSER10000",NULL,"28800","0","28800"
+"11096","61",NULL,NULL,"28800","28800",NULL
+"11097","62","JIRAUSER10400",NULL,"14400","14400",NULL
+"11098","63","JIRAUSER10000",NULL,"28800","28800",NULL
+"11099","378","JIRAUSER10501",NULL,"28800","0","28800"
+"11100","379","JIRAUSER10401","Quand l'utilsateur connecté *n'est pas le owner* de la tache, l'information du client est perdue.
+
+ ","14400","0","14400"
+"11102","381","JIRAUSER10100"," total loan is not updated : tester l'api sinon calculer coté FE
+
+changer la position du bouton avec couleur bleu","28800","0","21600"
+"11103","382","JIRAUSER10501","In check data workflow, add missing data finded from BE and translate message
+
+ 
+
+ ","14400","0","28800"
+"11104","383","JIRAUSER10501",NULL,"43200","0","43200"
+"11105","384","JIRAUSER10100",NULL,"0","0",NULL
+"11107","386","JIRAUSER10600",NULL,"1800","0","1800"
+"11108","387","JIRAUSER10100","* remove the note field
+ * when sending api, add default note ""Declined via ACM""","7200","0","10800"
+"11109","388","JIRAUSER10600","!image-2020-07-01-15-24-11-540.png!
+
+ 
+
+[https://demo.dashboardpack.com/architectui-html-pro/elements-timelines.html]
+
+ 
+
+Bouton: Activity Stream","28800","0","28800"
+"11110","389","JIRAUSER10100",NULL,"14400","0","14400"
+"11111","390","JIRAUSER10100",NULL,"14400","0","14400"
+"11112","391","JIRAUSER10600",NULL,"28800","0","43200"
+"11113","392","JIRAUSER10100","* when new notification, set the text bold (/)
+ * add customer name (/)
+ * Change colors instead of the blue bar (/)
+ * don't send a notif to the user who did the action (/)
+ * send the notif only to the assigned person (/)","28800","0","28800"
+"11114","393","JIRAUSER10600",NULL,"14400","0","28800"
+"11115","394","JIRAUSER10101","* The user can cancel his action at any moment of the process
+ ** This ""Cancel"" Button means to cancel the form and not cancel the loan
+ ** Nothing will be saved ","21600","0","18000"
+"11116","395","JIRAUSER10600","* changer le bouton upload 
+ * changer la logique d upload de documents client : ne pas lier au loan","28800","0","28800"
+"11118","64","JIRAUSER10400","En cas de paiement de plus que le montant de crédit, le travaille ne constate pas le passage en gain. L'excédent produit reste égal à la balance*-1 avant l'opération de passage en gain.","7200","7200",NULL
+"11119","65","JIRAUSER10400","Les champs de provision générale et spécifique doivent changer de l'entier au réel pour constater la vraie valeur de la provision.","3600","3600",NULL
+"11120","66","JIRAUSER10400","Le le travaille sur la table de fait FACT_ACCOUNT ne correcte pas les deux champs principaux n'attentent pas d'imputation et intérêt en attente d'imputation lors de l'opération de passage en gain.","14400","14400",NULL
+"11121","397","JIRAUSER10401","Catch exception --> Rollback","7200","0",NULL
+"11123","399",NULL,NULL,"28800","28800",NULL
+"11124","400","JIRAUSER10501","L utilisateur ne peut voit que les client qui font partie de son portefeille ou les portefeuiles de ses subordonnés
+
+Chercher par distinct (customer id)","7200","0","7200"
+"11125","401","JIRAUSER10401",NULL,"28800","0","129600"
+"11126","402","JIRAUSER10100",NULL,"0","0",NULL
+"11127","403","JIRAUSER10100","exemple: customer  hinda, rizgui
+
+!image-2020-06-29-11-05-22-221.png!
+
+!image-2020-06-29-11-05-39-664.png!","3600","0","1800"
+"11128","404","JIRAUSER10000","always 0","14400","0","3600"
+"11129","405","JIRAUSER10501","!image-2020-06-29-12-13-07-840.png!","3600","0","3600"
+"11130","406","JIRAUSER10501",NULL,"28800","0","28800"
+"11131","407","JIRAUSER10501",NULL,"86400","0","86400"
+"11132","408","JIRAUSER10501",NULL,"14400","0","25200"
+"11133","409","JIRAUSER10501",NULL,"7200","0","7200"
+"11134","410","JIRAUSER10501","Suite à la réunion de brainstorming avec le PO:
+ * Ajouter les rapport agreement dans ACM  (un seul rapport pour le moment: [~soumaya.barkallah] +[~radhouane.homrani])
+ * Ajouter la config du template dans ACM_DOC_TYPE
+ * Ajouter le bouton download dans l'écran ""UPLOAD SIGNED AGREEMENT"": le template doit inclure les valeurs dynamiques (info du client, du prêt...)","86400","0","86400"
+"11200","67","JIRAUSER10400","Le filtre daté dans le rapport est lié à la dernière date de chargement de DW.
+
+Il faut mettre à jour la forme du filtre pour que l'utilisateur ait la possibilité de choisir la date du reporting.","14400","14400",NULL
+"11201","68","JIRAUSER10400","Le rapport contient des champs en anglais comme :
+ * Loan Balance
+ * Unpaid amount ","7200","7200",NULL
+"11202","69",NULL,"Il faut mettre les champs nombre sur 3 décimales et mettre DT comme devise.","7200","7200",NULL
+"11203","70","JIRAUSER10400","Le calcul du PAR en % pour PAR 1 et PAR 8 est incorrecte. Il faut revoir la formule SSAS.","7200","7200",NULL
+"11204","71","JIRAUSER10400","Il faut utiliser utiliser le format 3 décimales et utiliser DT comme devise","7200","7200",NULL
+"11205","72","JIRAUSER10400","Conformement au spec, les titres dans le rapport Echéance théorique J doivent être Prinicpale et intérêt théorique et ajouter une colonne qui contient le total théorique","7200","7200",NULL
+"11206","73","JIRAUSER10400","Le calcul du PAR et CRD n'est pas correcte dans les deux tableaux du rapport.","28800","28800",NULL
+"11207","411","JIRAUSER10600",NULL,"144000","0","144000"
+"11208","412","JIRAUSER10501","* enlever les retards (reminders) : Done
+ * enlever les taches systemes (technique)  : Done
+ * Full name user  : Done
+ * category : Done
+ * Add date of field visit in the histo : Done
+
+ ","28800","0","28800"
+"11209","413","JIRAUSER10501",NULL,"28800","0","14400"
+"11210","414","JIRAUSER10600","vert
+
+bold","3600","0","28800"
+"11211","415","JIRAUSER10501","* Setting per user
+ * Email Y/N
+
+Notifictions par catégory
+ * Reminer
+ * workflow","57600","0","57600"
+"11212","416","JIRAUSER10600","* check field (reject reason)
+ * Remove name (sender)","3600","0","3600"
+"11213","417","JIRAUSER10401","* Approved amount only when approval (customer decision note)
+ * add new column approved amount 
+ ** do not update loan amount
+ ** use the new column
+ * update process setting based on this new column","0","0","21600"
+"11214","418","JIRAUSER10501","Default : Sysdate
+
+Contact date: SYSDADE
+
+ 
+
+Remove Currency field for Guarantor","7200","0","7200"
+"11215","419","JIRAUSER10401","Step Approve on CBS afler upload signed agreement
+
+ ","14400","0","14400"
+"11216","420","JIRAUSER10501",NULL,"57600","0","64800"
+"11217","421","JIRAUSER10600","Remove incremental
+
+Keep file Name
+
+Add + on the table only on the default documents
+
+Delete : Remove from table new documents added","57600","0","57600"
+"11219","423","JIRAUSER10401","Approve L3, L3, L4, le participant ne voit plus le dossier","14400","0","14400"
+"11220","424","JIRAUSER10100","* Login
+ * Customer User
+ * Icons Padding
+ * Test responsive","28800","0","28800"
+"11221","425","JIRAUSER10401","IP : 172.16.4.186
+
+Utilisateur : root - ACM - tdev
+
+Mot de passe : Talys@Dev","7200","0","21600"
+"11222","426","JIRAUSER10401",NULL,"28800","0","50400"
+"11223","427","JIRAUSER10401","[~soumaya.barkallah]
+ * update BPM : *{color:#00875a}DONE{color}*
+ * prendre en considération le montant approuvé lors de chargement des niveaux d'approbations : *{color:#00875a}DONE{color}*","14400","0","14400"
+"11224","74","JIRAUSER10000",NULL,"30","30",NULL
+"11225","75","JIRAUSER10400",NULL,"28800","28800",NULL
+"11226","76","JIRAUSER10000",NULL,"28800","28800",NULL
+"11227","428","JIRAUSER10600",NULL,"144000","144000",NULL
+"11228","429","JIRAUSER10100",NULL,"28800","28800",NULL
+"11229","430","JIRAUSER10100",NULL,"28800","0","28800"
+"11230","431","JIRAUSER10401","|ACM_SETTING_GUARANTOR_COLLATERAL|
+|ACM_SETTING_LEVEL|
+|ACM_SETTING_LEVEL_PROCESS|
+|ACM_SETTING_DOC_PRODUCT|
+
+ ","28800","14400","14400"
+"11231","432","JIRAUSER10600","|ACM_SETTING_DOC_TYPE|
+|ACM_ENVIRNMENT 
+(MAX_SIZE_FILE_UPLOAD
+ALLOWED_TYPE_FILE_UPLOAD)|","28800","0",NULL
+"11232","433","JIRAUSER10501","CRUD GROUP 
+
+HABILITATION","0","0",NULL
+"11233","434","JIRAUSER10401","|ACM_SETTING_NOTIFICATION|
+|ACM_SETTING_MOTIFS_REJET|
+|ACM_ENVIRONNEMENT (REMINDER)|
+|GENERAL SETTING (batch period run) ....|","28800","7200","21600"
+"11234","435","JIRAUSER10600",NULL,"0","0","3600"
+"11235","436","JIRAUSER10600",NULL,"28800","0","46800"
+"11238","439","JIRAUSER10401",NULL,"0","0",NULL
+"11239","440","JIRAUSER10401",NULL,"0","0",NULL
+"11240","441","JIRAUSER10600",NULL,"28800","0","28800"
+"11241","442","JIRAUSER10100",NULL,"14400","0","28800"
+"11242","443","JIRAUSER10401",NULL,"0","0",NULL
+"11243","444","JIRAUSER10600",NULL,"28800","0","28800"
+"11244","445","JIRAUSER10100",NULL,"0","0",NULL
+"11245","446","JIRAUSER10100",NULL,"0","0",NULL
+"11246","447","JIRAUSER10100",NULL,"14400","0","14400"
+"11247","448","JIRAUSER10100",NULL,"14400","0","14400"
+"11248","449","JIRAUSER10401",NULL,"0","0",NULL
+"11249","450","JIRAUSER10100",NULL,"14400","0","28800"
+"11250","451","JIRAUSER10100",NULL,"0","0",NULL
+"11251","452","JIRAUSER10100",NULL,"28800","0","28800"
+"11252","453","JIRAUSER10401",NULL,"7200","0","7200"
+"11253","454","JIRAUSER10501",NULL,"28800","0","28800"
+"11254","455","JIRAUSER10401",NULL,"0","0",NULL
+"11255","456","JIRAUSER10401",NULL,"28800","0","64800"
+"11256","457","JIRAUSER10401",NULL,"28800","0","28800"
+"11257","458","JIRAUSER10600",NULL,"28800","0","28800"
+"11258","459","JIRAUSER10401",NULL,"57600","0","50400"
+"11259","460","JIRAUSER10501",NULL,"14400","0","14400"
+"11260","461","JIRAUSER10501",NULL,"57600","0","57600"
+"11261","462","JIRAUSER10501",NULL,"28800","0","28800"
+"11262","463",NULL,NULL,"2736000","2736000",NULL
+"11263","464",NULL,NULL,"1440000","1440000",NULL
+"11264","465","JIRAUSER10600","* I18N 
+ * BE
+
+ ","0","0","72000"
+"11265","466","JIRAUSER10600","Create the customer 
+
+Create the loan application (individual product)","28800","0","28800"
+"11267","468","JIRAUSER10600",NULL,"28800","0","28800"
+"11268","469","JIRAUSER10100","Create the customer 
+
+Create the loan application (Group product)","28800","0","36000"
+"11269","470","JIRAUSER10100","Create the customer 
+
+Create the loan application (corresponding product)
+
+ 
+
+voir : [http://172.16.4.180:8090/display/WCC/Scope+Management]
+
+fichier : [http://172.16.4.180:8090/download/attachments/1310835/Abacus%20fields_V3.0%2025082020.xlsx?api=v2]
+
+ 
+|Field Name|Mandatory|Arabic|
+|Organisation Name|Yes|اسم المنشاة|
+|Commercial Registration NO|Yes|رقم السجل التجاري|
+|Date of issue|Yes|تاريخ الإصدار |
+|Date of expiry |Yes|تاريخ الانتهاء |
+|{color:#ff0000}Partners Main Contact{color}|{color:#ff0000}Yes{color}| |
+|{color:#ff0000}National ID{color}|{color:#ff0000}Yes{color}|{color:#ff0000}الهوية الوطنية {color}|
+|{color:#ff0000}Expiry Date {color}|{color:#ff0000}Yes{color}|{color:#ff0000}تاريخ الانتهاء {color}|
+|{color:#ff0000}Nationality {color}|{color:#ff0000}Yes{color}|{color:#ff0000}الجنسية {color}|
+|{color:#ff0000}Mobile {color}|{color:#ff0000}Yes{color}| |
+|{color:#FF0000}Email{color}|Yes| |
+|Region| Yes|المنطقة|
+|City|Yes|المدينة|
+|District|yes|مقاطعة|
+|Branch |yes|الفرع|
+|Loan Officer| |الاخصائي|
+|Project Description| | وصف المشروع |","57600","0","61200"
+"11270","471","JIRAUSER10600","* Calculate __enabled if form is valid
+ * icons  for calc result + text
+ * Hijri / Georg fields
+ * Personal info - Natioanlity & add validation (National or Residence ID)
+ * Add expiry date
+ * Contact Info
+ * Review & Submit","86400","0","115200"
+"11271","472","JIRAUSER10600","Voir spec confluence [http://172.16.4.180:8090/display/WCC/BRJMF+Loan+Process%3A+Status+et+possibles+actions]
+
+ 
+
+ ","0","0","43200"
+"11272","473","JIRAUSER10401","* Check in ACM
+ * Check in Abacus
+ * Intégration API","57600","0",NULL
+"11273","474",NULL,NULL,"0","0",NULL
+"11274","475","JIRAUSER10400","|Type of Message|Arabic|English|
+|قبل اتخاذ اجراء قانوني ضد العميل |بلاغ|Incident|
+|عام - لمنتج اوخدمة |استعلام|Enquery|
+|ممكن ان يزودنا العميل باقتراح لتحسين المنتج او اخذ تمويل إضافي|اقتراح|Suggestion|
+|للعملاء الجيدين |تجديد قرض|Loan renew Request (for working loans)|
+|بعد التمويل |تقييم الخدمة|Evaluation|
+|اجتماع اللجنة |حجز اجتماع|Meeting request|
+|ارسال رسائل بقنوات الشكاوى المتاحة للعملاء |شكوى|Complaint |
+|طلب آخر|طلب آخر|other|
+|إلغاء التطبيق|إلغاء التطبيق|cancel application|","0","0","28800"
+"11275","476","JIRAUSER10401","Customer + Loan dummy
+
+Intégrer l API
+
+Au moment du SUBMIT (IB) insérer la schedule dans une table SCHEDULE à créer
+
+ 
+
+[~soumaya.barkallah]
+
+suite au mail de  [~radhouane.homrani]
+
+L'API Calculator ne demande pas un crédit.
+
+Veuillez trouver ci-joint le fichier json qui contient le corps de l'API.
+
+Veuillez trouver également tous les API que vous allez utiliser sous : *Z:\02. Abacus\02. Projets\04. BRJMF\03. Requirements and spec\01. ACM\08- Abacus API*","21600","0","28800"
+"11276","477","JIRAUSER10100",NULL,"0","0","3600"
+"11278","479","JIRAUSER10501",NULL,"0","0",NULL
+"11279","480","JIRAUSER10401","* template mail
+ * methods backend
+ * integration
+
+ ","28800","0","28800"
+"11281","482","JIRAUSER10100","+ Update FE screen
+
+[http://172.16.4.180:8090/display/WCC/Scope+Management]
+
+ACM_Abacus fields.xlsx ","0","0","57600"
+"11282","483","JIRAUSER10600","* Notify the customer to :
+ ** Update Application Data 
+ ** Complete Application","0","0",NULL
+"11284","485","JIRAUSER10501","Add option in the menu","14400","0","14400"
+"11285","486","JIRAUSER10501","+ Add option in the menu
+
+ ","14400","0","28800"
+"11286","487","JIRAUSER10400","KYC
+
+Sima
+
+Sanction list","43200","0","43200"
+"11287","488","JIRAUSER10600","enlever les boutons assign et act stream
+
+ajouter bouton actions (voir pdf ci-dessous)
+
+Pop-up - contact customer
+ * object
+ * message
+ * send | cancel
+
+ 
+
+ ","14400","0","14400"
+"11288","489",NULL,NULL,"0","0",NULL
+"11289","490",NULL,NULL,"0","0",NULL
+"11290","491","JIRAUSER10501","Value in the field is based on an SQL query ( to be prepared by [~radhouane.homrani]","0","0",NULL
+"11291","492",NULL,NULL,"0","0",NULL
+"11293","77","JIRAUSER10000",NULL,"14400","7200","7200"
+"11294","78","JIRAUSER10000",NULL,"14400","7200","7200"
+"11295","79","JIRAUSER10400",NULL,"43200","43200",NULL
+"11296","80","JIRAUSER10400",NULL,"28800","28800",NULL
+"11297","81","JIRAUSER10000",NULL,"7200","7200",NULL
+"11298","82","JIRAUSER10400",NULL,"57600","57600",NULL
+"11299","494","JIRAUSER10501","* create DB table of online application
+ * Tableau avec un boutton assign en haut
+ ** multi check dispo","28800","0","28800"
+"11301","496","JIRAUSER10501","LOV Recommendation:
+ * Approval
+ * Rejection
+
+ ","14400","0","14400"
+"11302","497","JIRAUSER10100",NULL,"28800","0","28800"
+"11303","498","JIRAUSER10100",NULL,"57600","0","144000"
+"11304","499","JIRAUSER10400","Ajout de la table intermédiaire
+
+dev front end
+
+dev Back end","57600","0","57600"
+"11305","500","JIRAUSER10600",NULL,"43200","0","43200"
+"11306","501","JIRAUSER10400","* meme ecran fiche client INDV
+ * ajouter champ : montant a garantir","28800","0","28800"
+"11307","502","JIRAUSER10401","[~soumaya.barkallah] 
+
+Exemple de test : Loan : 002-00048367","28800","0","50400"
+"11308","503","JIRAUSER10600","same as ACM
+
+ ","0","0","43200"
+"11309","504","JIRAUSER10100",NULL,"57600","0","57600"
+"11310","505","JIRAUSER10501","* List of Online app assigned to the LO avec Edit button
+ * When the user clicks on  Edit: display initial validation screen
+ ** Refaire initial check screen
+ * Update tbale acm_customer to add client_TYPE (C or P)","43200","0","43200"
+"11311","506","JIRAUSER10600",NULL,"28800","0","86400"
+"11312","507","JIRAUSER10501",NULL,"3600","0","3600"
+"11313","508","JIRAUSER10100",NULL,"28800","0","28800"
+"11314","509",NULL,NULL,"28800","28800",NULL
+"11315","510","JIRAUSER10600",NULL,"28800","0","28800"
+"11316","511","JIRAUSER10501",NULL,"0","0",NULL
+"11317","512","JIRAUSER10501",NULL,"14400","0","14400"
+"11318","513",NULL,NULL,"0","0",NULL
+"11319","514",NULL,NULL,"0","0",NULL
+"11320","515",NULL,NULL,"0","0",NULL
+"11321","516","JIRAUSER10501",NULL,"14400","0","14400"
+"11322","517","JIRAUSER10501",NULL,"0","0",NULL
+"11323","518","JIRAUSER10501",NULL,"7200","0","7200"
+"11324","519","JIRAUSER10501",NULL,"0","0",NULL
+"11325","520",NULL,NULL,"0","0",NULL
+"11326","521",NULL,NULL,"0","0",NULL
+"11327","522","JIRAUSER10401","clone repo : [http://172.16.4.180:7990/scm/acm/ib-api.git]
+
+ ","43200","0","43200"
+"11328","523","JIRAUSER10100",NULL,"28800","0","28800"
+"11329","524","JIRAUSER10501","FE Updates:
+
+1. Add Loan screen: Customer Search with '+'  Add loan
+ # 
+ ## Customer Information (like loan application screen)
+ ## LOAN SIMULATION
+ ### Product
+ ### Calculator...
+ ## SCHEDULE
+ ## LOAN ANALYSIS
+
+[~soumaya.barkallah], [~moez]
+ * preparation insertion dans ABACUS par API
+
+Cas insert :
+ * insertion dans ABACUS par API
+
+{color:#ff0000}Cas update : {color}
+ * {color:#ff0000}update data in ACM{color}
+ * {color:#ff0000}send modified data to ABACUS using API [~Haythem.Benizid] à discutter{color}
+
+ ","28800","0","86400"
+"11330","525","JIRAUSER10401","Integration Of API Approval suite a l’étape upload sign doc
+
+ list APIs : [http://172.16.4.180:8090/display/WCC/Abcus+API+Requirements]
+
+ 
+
+list a mettre en place: 
+ - Add customer : POST api/customer (/)
+ - Update Customer : PUT api/customer/\{id} (/)
+ - Add Loan : POST api/loan (/)
+ - Update Loan : PUT api/loan/\{id}/details
+ - Add loan guarantor : POST api/loan/guarantor/\{id} (/)
+ {color:#00875a}*- Calculator : POST api/loan/calculate :  (/)*{color}
+ - Effective interest Calculation : POST api/loan/calculateeffectiveinterestrate
+ - Loan Approval :PUT api/loan/\{id}/processes (/)
+ {color:#00875a}*- Loan Cancelation : PUT api/loan/cancel/\{id} : (/)*{color}
+ - Schedule Edit for new loan : POST api/loan/scheduleedit
+ - Schedule Edit for applyed loans : PUT api/loan/\{id}/schedule
+ - Loan Refinance : PUT api/loan/refinance/\{id}","28800","0","28800"
+"11331","526","JIRAUSER10401",NULL,"14400","0","28800"
+"11332","527","JIRAUSER10101",NULL,"57600","0","93600"
+"11333","528","JIRAUSER10401",NULL,"57600","0","108000"
+"11334","529","JIRAUSER10501","Reject - intgration
+
+Add table rejected online application
+
+Accept 
+
+ - Check if customer exist
+
+ - Send API Abacus (customer + loan)
+
++ generate UN+Pss to customer 
+
+ ","57600","0","28800"
+"11335","530","JIRAUSER10401",NULL,"28800","0","3600"
+"11336","531","JIRAUSER10600",NULL,"57600","0","57600"
+"11337","532","JIRAUSER10100",NULL,"28800","0","28800"
+"11338","533","JIRAUSER10600","|Tâches|QUI ?|estimation|
+|Installation d'environnement|Ines|4h|
+|Creation projet (blank project) Front-end |Karim|30min|
+|Mise en place du projet sur bitbucket|Karim|30min|
+|Formation ionic|Ines + Karim|1day|
+|Ecran login|Ines|4h|
+|Ecran simulation|Karim|1day|
+|Ecran contact|Ines|4h|","0","0",NULL
+"11339","534",NULL,"BE+FE","28800","0",NULL
+"11340","535","JIRAUSER10401",NULL,"28800","0","43200"
+"11341","536","JIRAUSER10401","voir détails dans ACM-535 ","28800","0","28800"
+"11342","537",NULL,NULL,"28800","0",NULL
+"11343","538","JIRAUSER10501"," 
+
+ ","28800","0","28800"
+"11344","539","JIRAUSER10000",NULL,"14400","0","14400"
+"11346","541","JIRAUSER10501",NULL,"57600","0","57600"
+"11347","542",NULL,"KYC
+
+SIMAH
+
+AML","0","0",NULL
+"11348","543","JIRAUSER10501",NULL,"14400","0","14400"
+"11349","544","JIRAUSER10501",NULL,"28800","0","14400"
+"11350","545","JIRAUSER10501",NULL,"14400","0","28800"
+"11351","546","JIRAUSER10501",NULL,"57600","0","57600"
+"11352","547","JIRAUSER10100",NULL,"14400","0","64800"
+"11353","548","JIRAUSER10100",NULL,"28800","0","86400"
+"11354","549","JIRAUSER10401","* creation table adress
+ * partie BE
+ ** Country
+ ** Region
+ ** City
+ ** District
+ * gestion Customer Addresses
+
+script adresse (from ABACUS) a voir avec [~radhouane.homrani]","14400","0","100800"
+"11355","550","JIRAUSER10501",NULL,"28800","0","28800"
+"11356","551","JIRAUSER10501","Fisrt screen in the workflow, includes 2 tabls:
+ # Customer screen
+ # Loan Application screen
+
+Bring enetred data in the Internet Banking by default
+
+Buttons:
+ # Save
+ # Next - Enabled  only if all mandatory fields are entered.","28800","0","28800"
+"11357","552","JIRAUSER10501",NULL,"86400","0","86400"
+"11358","553","JIRAUSER10100","+ FE à intégrer dans le workflow et ajouter le montant de guarantie
+
+ ","86400","0","57600"
+"11359","554","JIRAUSER10200"," 
+ * bloc relationship
+ * chargement analyse
+ * chargement documents
+ * chargement Communications
+ * Status: 
+ ** Active (green) - ACTIVE 
+ ** Inactive (Yellow) - INACTIVE
+ ** Prospect (Blue) - PROSPECT
+ ** Blacklisted (Red) - BLACK_L","14400","0","28800"
+"11360","555","JIRAUSER10200",NULL,"14400","0","43200"
+"11361","556","JIRAUSER10200",NULL,"14400","0","28800"
+"11362","557","JIRAUSER10401","(add more data avec [~radhouane.homrani] )
+
+penser a exploiter le retour de création API
+ * batch product : 
+ ** add taux interst (/)
+ * batch customer
+ ** add new fields (/)
+ * batch loan
+ ** add new fields (/)
+ * new batch adress by id customer (/)
+ * new batch to load UDF
+ ** UDF by id loan (/)
+ ** UDF by id customer (/)","28800","0","115200"
+"11363","558","JIRAUSER10401",NULL,"28800","0","36000"
+"11364","559",NULL,"Risk et Audit Steps, define the business rule to whom assign the loan?
+
+We should configure a Risk User for a brach","28800","0",NULL
+"11365","560","JIRAUSER10101","BE-
+
+Desc Arabic + Desc Eng + Desc Fr 
+
+Name Arabic + Name Eng + Name Fr 
+
+Image 
+
+ 
+
+Table ACM PRODUCT DETAILS
+
+PRODUCT | AMT_MIN | AMT_MAX | TERM_MIN | TERM_MAX
+
+ 
+
+S'assurer de batch si tout est bon
+
+ 
+
+mis en place batch de la liste des setting value  ACM-596
+
+ ","57600","0","14400"
+"11366","561","JIRAUSER10000","[~radhouane.homrani], [~Haythem.Benizid]
+
+ Setting table :
+ # select * from AddressType
+ # select * from AddressList where active=1
+ # select * from AddressListValue where active=1 and AddressListID in (1,2,8)
+ # select * from SettingsAddress
+
+insertion dans :
+ * select * from Address order by CreationDate DESC
+ * select * from CustomerAddress – table mapping Customer <==> Address","7200","0","3600"
+"11367","562","JIRAUSER10401",NULL,"14400","0","14400"
+"11368","563","JIRAUSER10400","* Remove Edit Application(/) OK
+ * Asign To customer : (/) OK
+ ** Ajouter un flag dans la table ACM_LOAN (ASSIGN_CUSTOMER)
+ ** Quand on clique sur Assign to customer flag = 1 sinon par défaut 0
+ * Contact Customer:
+ ** Keep the pop-up when click on send : send an e OKmail to the customer + send Notification (ACM-652)(/) OK
+ * When the user receives a message from the customer:OK
+ ** Add new notification: ""New message received from customer XXXX at XXXX""(/) 
+ ** Tagged as   MESSAGE
+
+ ","28800","0","115200"
+"11369","564","JIRAUSER10200","* Remove comumns not from IB
+ * Add schedule
+ * Cards should be expanded
+ * Add all info from IB
+
+Boutton Accecpt - voir avec [~Haythem.Benizid]","57600","0","57600"
+"11370","565","JIRAUSER10401","Table ACM_LOAN à ajouter 3 colonne (types client)
+
+Table ACM8LOAN CHILD
+
+PRODUCT | AMT_MIN | AMT_MAX | TERM_MIN | TERM_MAX
+
+ 
+
+S'assurer de batch si tout est bon","14400","14400",NULL
+"11371","566","JIRAUSER10100","tous les tableaux","7200","0",NULL
+"11372","567","JIRAUSER10401","Review workflow (/)
+
+BRule Risk review montant > 70K (/)","57600","0","14400"
+"11373","568","JIRAUSER10100","Loan Application + Add organization screen
+ * % Owned
+ * Role
+
+Name | Phone | Portfolio | Branch | % Owned | Role
+
+ ","14400","14400",NULL
+"11374","569","JIRAUSER10200",NULL,"14400","0","7200"
+"11400","570","JIRAUSER10101","l'heure dans la popup est differente du board
+
+ ","28800","0","14400"
+"11401","571","JIRAUSER10501",NULL,"14400","0","14400"
+"11402","572",NULL,NULL,"7200","7200",NULL
+"11403","573","JIRAUSER10401",NULL,"7200","0","14400"
+"11404","574","JIRAUSER10600","If a customer has already documents (type = customer) then if he asked for a new loan, those documents should appear in the customer section","28800","0","28800"
+"11405","575","JIRAUSER10200","1. COMPLETE LOAN DATA status is not showing) (/)
+
+the value is not showing in  the filter list on the main dashboard
+
+2. Loan Officer column is not filtering à verifier si ca ete corrigé(/)
+
+3. Column Customer size x2(/)
+
+ 
+
+ 
+
+process [~Yesser.Somai]
+
++ Loan Process Icon should be the Loan Icon not organization 
+
+ ","14400","0","14400"
+"11406","576","JIRAUSER10200","should be like the screen size? no?","7200","0","7200"
+"11407","577","JIRAUSER10200","* View More Button (customer info)
+ * Group Members
+ * Organization Members
+
+ ","7200","0","7200"
+"11408","578","JIRAUSER10600","Setting BE
+
++ FE","0","0",NULL
+"11409","579","JIRAUSER10400","|Type of Message|Arabic|English|
+|قبل اتخاذ اجراء قانوني ضد العميل |بلاغ|Incident|
+|عام - لمنتج اوخدمة |استعلام|Enquery|
+|ممكن ان يزودنا العميل باقتراح لتحسين المنتج او اخذ تمويل إضافي|اقتراح|Suggestion|
+|للعملاء الجيدين |تجديد قرض|Loan renew Request (for working loans)|
+|بعد التمويل |تقييم الخدمة|Evaluation|
+|اجتماع اللجنة |حجز اجتماع|Meeting request|
+|ارسال رسائل بقنوات الشكاوى المتاحة للعملاء |شكوى|Complaint |
+|طلب آخر|طلب آخر|other|
+|إلغاء التطبيق|إلغاء التطبيق|cancel application|","28800","0","86400"
+"11410","580","JIRAUSER10600","Voir spec confluence [http://172.16.4.180:8090/display/WCC/BRJMF+Loan+Process%3A+Status+et+possibles+actions]
+
+ 
+
+ ","14400","0","14400"
+"11411","581","JIRAUSER10600",NULL,"14400","0","14400"
+"11412","582","JIRAUSER10600",NULL,"28800","0",NULL
+"11413","583","JIRAUSER10600","Translation & other setting
+
+ ","14400","0","14400"
+"11414","584","JIRAUSER10600","Note: A valider avec [~soumaya.barkallah] if combine steps 1 to 3, si oui do it here","14400","0","14400"
+"11415","585","JIRAUSER10600",NULL,"28800","0","28800"
+"11416","586","JIRAUSER10600","ACM_ENV - Contact EMAIL IB
+
+FROM CONTACT@IB...","28800","0","28800"
+"11417","587","JIRAUSER10401","display only notification for the mail loan","14400","0","21600"
+"11418","588","JIRAUSER10501",NULL,"3600","0",NULL
+"11419","589",NULL,"Quand je selectionne le filtre, il affiche tous les loans","7200","7200",NULL
+"11420","590","JIRAUSER10501",NULL,"14400","0","14400"
+"11421","591","JIRAUSER10100",NULL,"7200","3600","3600"
+"11424","594","JIRAUSER10401",NULL,"14400","0","28800"
+"11425","595","JIRAUSER10101",NULL,"28800","0","7200"
+"11426","596","JIRAUSER10401","Loan Details | Loan Reason ==  Loan Details | Loan Reason ==  select LoanReasonID ,Code ,Description ,AllProducts ,LoanProductIDs ,DefaultItem ,Active  from CUProductLoanReasons
+
+ 
+
+Loan Details | Guarantor Source ==  select CULoanGuarantorSourceID ,Code ,Description  ,DefaultItem  ,Active  from CULoanGuarantorSource
+
+ 
+
+Loan Details | Source of Funds ==  select LoanSourceOfFundsID ,Code ,Description ,AllProducts ,LoanProductIDs ,DefaultItem ,Active ,HighLevelSourceFund ,sourceofFundtype ,CurrencyID from CULoanSourceOfFunds
+
+ 
+
+Loan Details | Refinance Reason ==  select CULoanRefinanceReasonID ,Code ,Description ,AllProducts ,LoanProductIDs ,DefaultItem ,Active from CULoanRefinanceReason
+
+ 
+
+Calculator | Periods Deferred ""values of GracePeriod et InterestDeferred from Culaonpart- Loan Deffered no Grace Periods : GracePeriod : 0 & InterestDeferred : 0- Loan Deffered with Grace Periods : GracePeriod : 1 & InterestDeferred : 0- Payments Deferred no Grace Periods :  GracePeriod : 0 & InterestDeferred : 1- Payments Deferred with Grace Periods : GracePeriod : 1 & InterestDeferred : 1 select PeriodsDeferred  from CULoanPart (PeriodsDeferred : number of deffered period)""
+
+ 
+
+Branch ==  select BranchID      ,Name      ,Description      ,Code      ,SortCode      ,AccessAll      ,AllowCustomers      ,BackOfficeGL      ,Active      ,AddressID      ,BranchPhoneNumber      ,BranchFaxNumber      ,BranchEmail      ,IncrementDays      ,UseClosedDaysHolidays      ,ClosedDays      ,ChequeClearancePersonal      ,ChequeClearanceThirdParty        ,ParentBranchID      ,RegionalManagerID      ,GLAccountCode from Branches
+
+--Relationships select RelationshipID      ,Name      ,InverseName      ,Directional      ,CreationDate      ,Active from Relationship
+
+ 
+
+--Sector select IndustryID      ,Name      ,DefaultItem      ,Active from Industry
+
+ 
+
+--Linked customers select CURoleID      ,code      ,Description      ,DefaultItem      ,Active      ,UniqueRestriction     ,IsGroupHead from CURole","28800","0","28800"
+"11427","597","JIRAUSER10501","a vérifier avec [~soumaya.barkallah]","14400","0","14400"
+"11428","598","JIRAUSER10501","UDF (Analysis) (/)
+ * FE cards (/)
+ * Integrate BE (/)
+ * Tests (/)
+
+Note we can add multiple 
+
++ Prendre en compte les UDF séparé National Id...) (x)
+
+ 
+
+FE improvements
+ * mandatory fields star red (/)
+ * reorder fields like Abacus (/)
+ * Links ==> Members and should be in a card (x)
+ * ..............","86400","0","100800"
+"11429","599","JIRAUSER10100","Add button Edit","28800","0","28800"
+"11430","600","JIRAUSER10600",NULL,"14400","0","7200"
+"11431","601","JIRAUSER10501","# Link forget password
+ # IHM: input username + bouton submit
+ # Email - temporary password","21600","0","25200"
+"11432","602","JIRAUSER10200","Add option in Customer screen
+
+ ","14400","14400",NULL
+"11433","603",NULL,"Setting
+
+Add option: show disabled xxxx
+
+And hide them current from list","7200","7200",NULL
+"11434","604","JIRAUSER10401","vu avec [~soumaya.barkallah]
+ * SIMA | AML XML SOAP :
+ ** voir doc *DV360.docx*
+ * KYC REST API
+ ** voir doc
+
+ SPEC : [http://172.16.4.180:8090/display/WCC/Screening]
+
+ 
+ # mis en place mécanisme de consomation de WS
+ # mis en place mécanisme historique chaque appel WS (param IN & OUT)","57600","0","284400"
+"11435","605","JIRAUSER10200",NULL,"14400","0",NULL
+"11436","606","JIRAUSER10400","* Portfolio list is not working (/)
+ * Add pagination (/)
+ * should not include customers (only users)!!!! (/)
+ * Add ACCESS_BRANCHES field ( voir champs multi select [http://172.16.4.186/field-visit) (/)|http://172.16.4.186/field-visit)])
+ ** enregistrer le codes séparés par des virgules (/)
+ * Display portfolio Name (/)","28800","0","50400"
+"11437","607","JIRAUSER10100",NULL,"14400","14400",NULL
+"11500","608","JIRAUSER10600","Personal Information
+
+!image-2020-10-06-15-14-08-258.png!
+
+Address Information
+
+----toutes les adresses
+
+My Accounts
+
+My groups 
+||Group Name||My Role||
+|Col A1|Col A2|
+
+My Guarantees
+||Loan Account||Loan Amount||Product||Customer||Total Guaranteeing||
+|Col A1|Col A2| | | |
+
+ 
+
+Bank Repayment Accounts
+||Loan Account||Bank Name||Account Number ||
+|80101-00009997|Rajhi|352738521378628|
+| |Al Ahli|O764A389498A23|
+|80101-00009995|Rajri |7A4097209409724|
+| |Al Ahli|89798472R498652|
+
+ 
+
+Bank Disbursment Accounts
+||Loan Account||Bank Name||Account Number||
+|80101-00009997|Attijari|6325-2102-21876-2186|
+
+ ","57600","0","57600"
+"11501","609","JIRAUSER10600","Applied accounts should be moved to My application tab","14400","14400",NULL
+"11502","610","JIRAUSER10400","Do not show the message when the data is loading
+
+IB + ACM","7200","0",NULL
+"11503","611",NULL,"Year of birth : Should not accept more than 4 caracters
+
+Natioanl ID:  Number of caracter should be limited
+
+Adresss : Should be  a text ","14400","0",NULL
+"11504","612","JIRAUSER10100","Save button not working --> orgnisation is not added in the data base ","14400","0",NULL
+"11506","614","JIRAUSER10400","FE - Add check box
+
+Query: 
+
+select CUTransaction.*
+from CUTransaction 
+inner join CULoan on CULoan.CUAccountID=CUTransaction.CUAccountID
+inner join CULoanPart on CULoan.CULoanID=CULoanPart.CULoanID
+where TransactionTypeID=8 and CUTransaction.Amount=(CULoanPart.IssueFee1Amount+CULoanPart.IssueFee2Amount)
+and CUTransaction.CUAccountID=66496
+
+ ","43200","0","43200"
+"11507","615","JIRAUSER10401","select * from culoan where status = 4 -- issued
+
+ 
+
+ ","7200","0","21600"
+"11508","616",NULL,"select * from CULoanDistrictCode","7200","7200",NULL
+"11510","618","JIRAUSER10100","+ FE à intégrer dans le workflow et ajouter le montant de guarantie
+
+ ","14400","0","10800"
+"11511","619","JIRAUSER10401",NULL,"288000","288000",NULL
+"11512","620","JIRAUSER10200",NULL,"3600","0",NULL
+"11513","621","JIRAUSER10401",NULL,"14400","0","14400"
+"11514","622","JIRAUSER10401",NULL,"7200","0","7200"
+"11515","623","JIRAUSER10401",NULL,"14400","0","14400"
+"11516","624","JIRAUSER10200"," 
+
+1. Integrer les web services (consommer back):
+ * KYC
+ * SIMAH
+ * AML
+
+2. Implémenter la spec voir confluence","57600","0","122400"
+"11517","625","JIRAUSER10501"," 
+
+Table ACM PRODUCT DETAILS
+
+PRODUCT | AMT_MIN | AMT_MAX | TERM_MIN | TERM_MAX
+
+ 
+
+S'assurer de batch si tout est bon
+
+ 
+
+mis en place batch de la liste des setting value  ACM-596
+
+ ","14400","0","14400"
+"11518","626","JIRAUSER10200",NULL,"14400","0",NULL
+"11519","627","JIRAUSER10401",NULL,"0","0","0"
+"11520","628","JIRAUSER10501","* When app is assigned to Audit, the LO should be redirected to the Home Screen
+ * When app is assigned to Risk, the Auditor should be redirected to the Home Screen","14400","0","14400"
+"11521","629","JIRAUSER10501","The user should be redirected to the HP","7200","0","21600"
+"11522","630","JIRAUSER10401","The system was closed when I clicked on the finish Button
+
+[~Haythem.Benizid] meme cas que j'ai eu en indiv","14400","0","14400"
+"11523","631","JIRAUSER10600",NULL,"14400","0","14400"
+"11524","632","JIRAUSER10100",NULL,"14400","0",NULL
+"11525","633","JIRAUSER10100","(/)Links ==> Members and should be in a card (/)
+
+Branch should be before Porfolio and portfolio should be filtered based on branch (/)
+
+Save is not working (client) (/) juste ajouter les validations pour champs mandatory
+
+ A valider API [~Haythem.Benizid]","14400","0","14400"
+"11600","634","JIRAUSER10100",NULL,"0","0",NULL
+"11601","635","JIRAUSER10600","voir avec [~Haythem.Benizid]","14400","0","14400"
+"11602","636","JIRAUSER10600",NULL,"28800","0","57600"
+"11603","637","JIRAUSER10600",NULL,"7200","0","7200"
+"11604","638","JIRAUSER10401","URL VM IB recette : 172.16.4.188
+
+user : root / tdev
+
+--------
+
+[~soumaya.barkallah] 
+
+mail [~radhouane.homrani]
+
+Veuillez trouver la nouvelle version *BRJMF* sur le serveur de test : *172.16.4.182*
+
+Abacus Location : *E:\BRJMF\New release\Abacus_Release_2.8.4.18809*
+
+Abacus Web Link : [https://172.16.4.182:8282/]
+
+API link : [https://172.16.4.182:8282/api]
+
+Utilisateur : administrator
+
+Mot de passe : *****","7200","0","57600"
+"11605","639","JIRAUSER10401","[~Haythem.Benizid]
+
+Dev integration et recette
+
+fichiers en PJ :
+ * AR.json
+ * EN.json
+ * FR.json
+
+merci :)
+
+ ","3600","0","3600"
+"11700","640","JIRAUSER10401","[~soumaya.barkallah] list des API en PJ (de la par de [~radhouane.homrani] )","0","0","100800"
+"11702","642","JIRAUSER10401","API en PJ","0","0",NULL
+"11800","643","JIRAUSER10501","[~moez] il faudra créer un setting (par user ou par branche), pour définir qui est l'auditeur / le risk manager à qui assigner le wfl.
+
+pour les data BRJMF, voir le tableau ci-dessous:
+
+ 
+|Khezimame|MOHAMED ABOUKHOZIMA|Jeddah , Madinah , Tabuk|Branch Auditor|
+|BRJMFIA|BRJMFIA|HO , All Branch|internal auditer|
+|Metwallyaa|AHMED ADEL AHMED METWALLY|Riyadh, Dammam|Branch Auditor|
+|Sammanhy|Hani Yousef Bakr Al Samman|Ho and All branches|Risk Manager|
+
+ 
+
+penses aussi à une option All si la personne s'occupe de toute les agences...
+
+[~Haythem.Benizid] FYI","14400","0","14400"
+"11801","644","JIRAUSER10400",NULL,"14400","0",NULL
+"11802","645","JIRAUSER10401","IB+ACM (Where we have the field)
+
+----------------------------------------------------------------------------------------
+
+After Validation with client : See attachment CHECK_ID.SQL   ","57600","0","14400"
+"11803","646","JIRAUSER10200","Loan Dashboard + Onlinr Application","14400","0","7200"
+"11804","647","JIRAUSER10200",NULL,"14400","0","14400"
+"11805","648",NULL,NULL,"14400","0",NULL
+"11806","649","JIRAUSER10200",NULL,"14400","0","57600"
+"11807","650","JIRAUSER10501",NULL,"28800","0","43200"
+"11808","651","JIRAUSER10501",NULL,"28800","0","14400"
+"11809","652","JIRAUSER10400",NULL,"28800","0","72000"
+"11810","653","JIRAUSER10100","Account Portfolio is not displaying 
+
+ ","14400","0",NULL
+"11811","654","JIRAUSER10600",NULL,"14400","0","14400"
+"11812","655","JIRAUSER10400",NULL,"7200","0","10800"
+"11813","656","JIRAUSER10501",NULL,"57600","0",NULL
+"11814","657","JIRAUSER10401","API en PJ","0","0","57600"
+"11815","658","JIRAUSER10401",NULL,"0","0",NULL
+"11816","659","JIRAUSER10401",NULL,"14400","0","28800"
+"11817","660","JIRAUSER10401",NULL,"14400","0","14400"
+"11818","661","JIRAUSER10401",NULL,"14400","0","14400"
+"11819","662","JIRAUSER10401",NULL,"14400","0","7200"
+"11820","663","JIRAUSER10401",NULL,"14400","0","14400"
+"11821","664","JIRAUSER10401","[~soumaya.barkallah] 
+
+query made by [~radhouane.homrani] to identify the ""culoanprocessID"" => ID level approval
+
+*DECLARE @culoanID int = 1*
+
+*SELECT* 
+ *CULoanProcess.CULoanProcessID,*
+ *CULoanProcess.CULoanID,*
+ *CULoanProcessID,*
+ *CULoanProcess.Completed,*
+ *CULoanProcess.LoanApprovalGroup,*
+ *(SELECT Customer.CustomerType FROM Customer WHERE Customer.CustomerID=CULoan.CustomerID) CustomerType,*
+ *CULoan.CommunityCULoanID*
+*FROM CULoanProcess*
+*INNER JOIN CULoan ON CULoan.CULoanID = CULoanProcess.CULoanID*
+*INNER JOIN CUProductLoanProcesses ON CULoanProcess.CUProductLoanProcessesID=CUProductLoanProcesses.CUProductLoanProcessesID*
+*WHERE CUProductLoanProcesses.Approve=1 AND CULoanProcess.cuLoanID IN (SELECT CULoanID FROM CULoan WHERE CULoanID=@culoanID OR CommunityCULoanID=@culoanID)*
+*order by CULoanProcess.CULoanID,CULoanProcess.LoanApprovalGroup ASC*","14400","0","57600"
+"11822","665","JIRAUSER10401",NULL,"14400","0",NULL
+"11823","666","JIRAUSER10401",NULL,"14400","0","14400"
+"11824","667","JIRAUSER10401",NULL,"14400","0","14400"
+"11825","668","JIRAUSER10401",NULL,"14400","0",NULL
+"11826","669","JIRAUSER10100",NULL,"14400","0","14400"
+"11827","670","JIRAUSER10100",NULL,"14400","0","14400"
+"11828","671","JIRAUSER10501",NULL,"14400","0","14400"
+"11829","672","JIRAUSER10501",NULL,"14400","0","28800"
+"11830","673","JIRAUSER10100",NULL,"14400","0","14400"
+"11831","674","JIRAUSER10501",NULL,"14400","0","28800"
+"11832","675",NULL,NULL,"14400","0",NULL
+"11833","676","JIRAUSER10501",NULL,"14400","0","14400"
+"11834","677","JIRAUSER10501",NULL,"14400","0","21600"
+"11835","678","JIRAUSER10501",NULL,"28800","0","28800"
+"11836","679","JIRAUSER10501",NULL,"14400","0","7200"
+"11837","680","JIRAUSER10501",NULL,"14400","0","14400"
+"11838","681","JIRAUSER10401",NULL,"28800","0","43200"
+"11839","682","JIRAUSER10600",NULL,"28800","0","28800"
+"11840","683","JIRAUSER10100",NULL,"28800","0","21600"
+"11841","684","JIRAUSER10400",NULL,"14400","14400",NULL
+"11842","685","JIRAUSER10200","* La liste doit comprendre seulement les Loan Officers de la Branch selected (voir [~moez] )
+ * Le boutons Assign Application doit être grisé si
+ ** il n'a aucun Loan application ou
+ ** s'il n'a aucun LA selected 
+
+ 
+
+ ","14400","0","14400"
+"11843","686","JIRAUSER10101",NULL,"14400","0",NULL
+"11844","687","JIRAUSER10501",NULL,"3600","0",NULL
+"11845","688","JIRAUSER10400",NULL,"28800","28800",NULL
+"11846","689","JIRAUSER10600",NULL,"7200","0","14400"
+"11847","690","JIRAUSER10600",NULL,"14400","0","14400"
+"11848","691","JIRAUSER10200",NULL,"14400","0","3600"
+"11849","692","JIRAUSER10200","Voir avec [~Haythem.Benizid]","14400","0","28800"
+"11850","693","JIRAUSER10401",NULL,"14400","0","57600"
+"11851","694","JIRAUSER10501","*Principe*:
+
+Ajouter la logique Parent/Child (for group)pour les UDF (Loan et Customer): Cette logique sera utilisée principalement pour les groupes
+
+*Data*:
+
+Bank Repayment Accounts et Bank Disbursment Accounts groups  - set as child udf
+
+*Comportement système:*
+
+Pour un loan de type groupe, on ne devrait pas trouver Bank Repayment Accounts et Bank Disbursment Accounts groups dans la liste de other informations
+
+pour les loan enfants, on devrait les trouver mais pas ceux pour parent.
+
+ ","57600","0",NULL
+"11852","695","JIRAUSER10501","le workflow saute cette etape ","14400","0","7200"
+"11853","696","JIRAUSER10200","Audit - Risk - *{color:#00875a}Approval{color}* - customer decision - Upload signed agereements
+
+ ","14400","0","14400"
+"11854","697","JIRAUSER10501",NULL,"14400","0","14400"
+"11855","698","JIRAUSER10200","Risk and audit screens (Voir [~moez] )","14400","0","14400"
+"11856","699","JIRAUSER10501",NULL,"14400","0","7200"
+"11857","700","JIRAUSER10501",NULL,"14400","0","14400"
+"11900","702","JIRAUSER10600"," Voir UDF - Nationality Groupe | National ID *( Start by 1 (10 Number ))*
+
+ Voir UDF - Nationality Groupe | Resident ID *( Start by 2 (10 Number ))* 
+
+Telephone Number 1 (Mobile) *( 10 Number Start by 05XXXXXXXX)*
+
+Email *(Mail Mask)*","28800","0","28800"
+"11901","703","JIRAUSER10400",NULL,"14400","0","28800"
+"11902","704","JIRAUSER10401",NULL,"14400","0","43200"
+"11903","705",NULL,"voir document","28800","0",NULL
+"11904","706","JIRAUSER10401",NULL,"0","0",NULL
+"11905","707","JIRAUSER10100","# *Industry Code should be filtered as described*
+
+|Industry Code Level 1 (The main)|
+|Industry Code Level 2 (The sub 1 related to Level 1)|
+|Industry Code Level 2 (The sub 2 related to Level 2)|
+
+ 
+
+ 
+
+ ","28800","0","57600"
+"11906","708","JIRAUSER10200",NULL,"14400","0","14400"
+"11907","709","JIRAUSER10600",NULL,"1800","0","1800"
+"11908","710","JIRAUSER10600",NULL,"1800","0","1800"
+"11909","711","JIRAUSER10600",NULL,"28800","0",NULL
+"11910","712","JIRAUSER10200",NULL,"28800","0",NULL
+"11911","713","JIRAUSER10200",NULL,"14400","0","28800"
+"11912","714","JIRAUSER10200",NULL,"14400","0","14400"
+"11913","715","JIRAUSER10600",NULL,"28800","0","72000"
+"11914","716","JIRAUSER10400",NULL,"14400","0",NULL
+"11917","719","JIRAUSER10100",NULL,"14400","0","28800"
+"11918","720","JIRAUSER10200","Complete loan Data / EDIT Customer I18N Hijri expiry date
+
+Customer card use branch desc instead od branch code","14400","0","10800"
+"11920","722","JIRAUSER10600",NULL,"14400","0","14400"
+"11921","723","JIRAUSER10200",NULL,"3600","0",NULL
+"11922","724","JIRAUSER10200",NULL,"14400","0","14400"
+"11923","725",NULL,NULL,"14400","14400",NULL
+"11924","726","JIRAUSER10401","mécanisme send mail suite a la création d'un nouveau customer (/)
+ INDIV = customer
+ GRP = groupe
+ organisation : head
+
+-----------------------------------
+
+ update all method to send mail to customer client (mail de type customer) (/)
+
+-----------------
+
+ajouter un mail generic dans acm_environnement table => envoi des mails ACM (create loan, approve,.....) (/)","14400","0","21600"
+"11925","727","JIRAUSER10400",NULL,"14400","0","14400"
+"11926","728","JIRAUSER10400",NULL,"14400","0","14400"
+"11927","729","JIRAUSER10100",NULL,"14400","0",NULL
+"11928","730","JIRAUSER10600","+ Bug (see attachment)
+
+ ","14400","0","28800"
+"11929","731","JIRAUSER10400","Guarantor 
+
+Documents
+
+ ","14400","0",NULL
+"11930","732","JIRAUSER10200","# Changer style de l'écran (as add customer)
+ # Other Information tab must be redone
+
+ ## Style tableau as in ACM
+ ## Group to be renamed Category
+ # Document Tab 
+ ## Rename Documents
+ ## Should include
+ ### Customer Documents
+ ### Loan Documents - Loan 1234569
+ ### Loan Documents - Loan 6326389
+ ### ..... as much as loans 
+ ## Complete Communications Tab
+ ### Table with columns: Object - From - To - Date received - View button","14400","0","43200"
+"11931","733","JIRAUSER10401","[~soumaya.barkallah]  update table acm_loan (/)
+
+add 3 nouveaux column : (/)
+ * loanCalculationMode
+ * APR
+ * EIR
+
+update save loan method (/)
+
+update batch loan query (/)
+
+ ","14400","0","36000"
+"11932","734","JIRAUSER10501",NULL,"3600","0",NULL
+"11933","735","JIRAUSER10400",NULL,"14400","0","14400"
+"11934","736","JIRAUSER10401",NULL,"28800","0","223200"
+"11935","737","JIRAUSER10401",NULL,"28800","0","36000"
+"11936","738","JIRAUSER10200","loan officer in customer information card (can't find data) (x)","14400","0","14400"
+"11937","739","JIRAUSER10401",NULL,"28800","0","7200"
+"11938","740","JIRAUSER10501",NULL,"14400","0","14400"
+"11939","741","JIRAUSER10600",NULL,"7200","0",NULL
+"11940","742","JIRAUSER10400","* Quand j'efface le montant et je clique sur next, la variable contenant le montant n'est pas raffraichie (à vérifier)
+ * Quand on ajoute un guarant l'ancien s'efface
+ * Quand on change le montant et on fait save, le update ne fonctionne pas
+ *","14400","0","28800"
+"11941","743","JIRAUSER10200","cards in every screen should include the step before","14400","0","7200"
+"11942","744","JIRAUSER10200",NULL,"14400","0","7200"
+"11943","745","JIRAUSER10101","[~soumaya.barkallah] add values in setting 
+
+ ","7200","0",NULL
+"11944","746","JIRAUSER10401",NULL,"28800","0","28800"
+"11945","747","JIRAUSER10400","* Screen Name should be ""Search Customer"" (/)
+ * Customer Name should be without ""|"" and aligned left  (/)
+ * Portfolio Name should be ""First Name+ Last name"" and aligned left (PortfolioDescription in DATABASE) (/)
+ * Customer Identity  (/)
+ * check Customer Group (/)","28800","0","43200"
+"11946","748","JIRAUSER10101",NULL,"14400","0",NULL
+"11947","749","JIRAUSER10401","Member type list is wrong and field should be renamed ""Role""","14400","0","14400"
+"11948","750","JIRAUSER10600","I have to do ctrl + F5 to get it (x)","14400","0",NULL
+"11949","751","JIRAUSER10401","autres a sujets a rectifier :
+
+query batch customer => [~soumaya.barkallah]  a voir avec [~radhouane.homrani] 
+ -----------
+ method generic coté front pour traiter pipe |","14400","0","28800"
+"11950","752","JIRAUSER10400",NULL,"7200","0",NULL
+"11951","753",NULL,NULL,"14400","14400",NULL
+"11952","754",NULL,NULL,"14400","0",NULL
+"11953","755","JIRAUSER10600",NULL,"14400","0","14400"
+"11954","756","JIRAUSER10400","select * from Industry
+where Active = 1
+
+ ","14400","0",NULL
+"12001","758","JIRAUSER10401",NULL,"14400","0","7200"
+"12002","759","JIRAUSER10400",NULL,"14400","0","43200"
+"12004","761","JIRAUSER10400",NULL,"14400","0","43200"
+"12005","762","JIRAUSER10600","on doit pouvoir scroller
+
+  (IB + ACM)","14400","0","14400"
+"12006","763","JIRAUSER10400",NULL,"14400","0","28800"
+"12007","764",NULL,NULL,"28800","0",NULL
+"12008","765","JIRAUSER10100","Card: Company Partners
+
+UDF Group missing (Owner information Partner)
+
+Tableau:
+ * Name 
+ * Role
+ * % Owned
+
+@soumaya TBC This information comes from UDF and should be saved in UDF  
+
+ ","21600","0","21600"
+"12009","766","JIRAUSER10101","Par defaut Month","3600","0","3600"
+"12010","767",NULL,"should be read from setting 
+
+ ","14400","0",NULL
+"12011","768","JIRAUSER10101",NULL,"14400","0",NULL
+"12012","769","JIRAUSER10400",NULL,"14400","0",NULL
+"12013","770","JIRAUSER10400",NULL,"14400","0","7200"
+"12014","771","JIRAUSER10101",NULL,"14400","14400",NULL
+"12015","772","JIRAUSER10501",NULL,"14400","0","28800"
+"12016","773","JIRAUSER10100","Issue date should be >= SYSDATE 
+ * ACM/Complete loan data (/)
+ * ACM/ Add loan (/)
+ * ACM/ Add loan Group   (/)
+ * IB/Simulate (/)
+ * IB/Complete loan data (/)
+
+Client Age - when creating a loan application, the client s age should be verified from product setting
+ * ACM/Complete loan data (/)
+ * ACM/ Add loan (/)
+ * IB/Simulate (/)
+ * IB/Complete loan data (/)
+
+Fisrt repayment date <= Issue date + 45 jours  
+ * ACM/Complete loan data (/)
+ * ACM/ Add loan (/)
+ * ACM/ Add loan Group  (/)
+ * IB/Complete loan data (/)
+
+We cannot add a member to more than 1 group. add validation 
+ * ACM/ Add customer (/)
+ * ACM/ Edit customer (/)
+
+Max active accounts – setting from abacus
+ * ACM/ Add loan  (/)
+ * IB/Simulate (/)
+
+ product should be disabled complete loan data / calculator screen 
+ * ACM/Complete loan data (/)
+ * IB/Complete loan data (/)
+
+Periods Deferred < Max Periods Deferred by Product and Periods Deferred > Min Periods Deferred by Product
+ * ACM/Complete loan data (/)
+ * ACM/ Add loan(/)
+ * IB/Simulate (/)
+ * IB/Complete loan data (/)","86400","0","86460"
+"12017","774","JIRAUSER10501",NULL,"28800","0","28800"
+"12018","775","JIRAUSER10401","historique de tous les actiones (call of API)","28800","0","36000"
+"12019","776","JIRAUSER10200",NULL,"14400","0","14400"
+"12020","777","JIRAUSER10100",NULL,"14400","0",NULL
+"12021","778","JIRAUSER10200",NULL,"14400","0",NULL
+"12022","779","JIRAUSER10101","|By clicking in the signature box below a tick will be inserted which will represent your electronic signature. As part of the sign up for membership we will be required to run a identify and verification check. If, for any reason, we are unable to verify your identity we will get in touch to arrange for you to provide us with your identity documents to complete the sign up process.|من خلال النقر في مربع التوقيع أدناه ، سيتم إدراج علامة تمثل توقيعك الإلكتروني. كجزء من التسجيل للتقديم على الطلب ، سيُطلب منا إجراء فحص لتحديد الهوية والتحقق. إذا تعذر علينا ، لأي سبب من الأسباب ، التحقق من هويتك ، فسنتواصل معك للترتيب لك لتزويدنا بوثائق هويتك لإكمال عملية التسجيل.|
+|By clicking on the signature box below, a mark representing your electronic signature will be included as you agree to inquire about your credit details through SIMA . |من خلال النقر في مربع التوقيع أدناه ، سيتم إدراج علامة تمثل توقيعك الإلكتروني ذلك باعتبارك موافقا على الاستعلام عن بياناتك الائتمانية من خلال خدمة سمة .|","7200","0",NULL
+"12100","780","JIRAUSER10200",NULL,"28800","0",NULL
+"12101","781","JIRAUSER10100",NULL,"28800","0","28800"
+"12102","782","JIRAUSER10400",NULL,"14400","0",NULL
+"12103","783","JIRAUSER10501",NULL,"14400","14400",NULL
+"12104","784","JIRAUSER10401"," 
+|API|SCREEN|CUSTOMER TYPE|Test Result| |
+|ADD LOAN | - Add Loan|INDIV|(x)| |
+| | |ORG|(x)| |
+| | |GRP|(x)| |
+|UPDATE LOAN| - Complete loan data|INDIV|(x)| ACM DB (x)|
+| | |ORG|(x)| |
+| | |GRP|(x) | |
+|ADD CUSTOMER| - Add customer|INDIV|(x)| |
+| | |ORG|(x)|ACM DB (x)|
+| | |GRP|(x)| |
+|UPDATE CUSTOMER| - Complete loan data
+ - Edit Customer|INDIV|(/)| |
+| | |ORG|(x)| |
+| | |GRP|(x)| |
+|ADD GUARANTOR| - GuarantorCustomer Decision
+ - Upload signed Agreement| |(/)| |
+|APPROVAL 1| - Customer Decision| |(/)| |
+|APPROVAL 2| - Upload signed agreements| |(/)| |
+|ADD CUSTOMER
+ ADD LOAN| - Online Application \| Accept|INDIV|(/)| |
+| | |ORG|(x)| |
+| | |GRP|(x)| |
+
+[~Haythem.Benizid] [~Yesser.Somai] [~moez]
+
+ 
+
+ ","86400","0","115200"
+"12105","785","JIRAUSER10501",NULL,"28800","0",NULL
+"12106","786","JIRAUSER10600",NULL,"14400","0",NULL
+"12107","787","JIRAUSER10200",NULL,"14400","0",NULL
+"12108","788","JIRAUSER10600",NULL,"14400","0",NULL
+"12109","789","JIRAUSER10600",NULL,"28800","0",NULL
+"12110","790","JIRAUSER10200",NULL,"14400","14400",NULL
+"12111","791","JIRAUSER10600",NULL,"28800","0",NULL
+"12112","792","JIRAUSER10200","By clicking in the signature box below:By clicking in the signature box below:
+ # A tick will be inserted which will represent your electronic signature. As part of the sign up for membership we will be required to run a identify and verification check. If, for any reason, we are unable to verify your identity we will get in touch to arrange for you to provide us with your identity documents to complete the sign up process.
+ # A mark representing your electronic signature will be included as you agree to inquire about your credit details through SIMAH.","3600","0",NULL
+"12113","793","JIRAUSER10200","Your loan Application has been sent successfully. ","3600","0","3600"
+"12114","794","JIRAUSER10401","* Applied Amount
+ * ....
+
+à voir avec [~soumaya.barkallah] la liste des champs à valider","28800","28800",NULL
+"12115","795","JIRAUSER10600",NULL,"144000","0","14400"
+"12116","796","JIRAUSER10200",NULL,"144000","0","21600"
+"12117","797","JIRAUSER10401",NULL,"0","0",NULL
+"12118","798","JIRAUSER10401",NULL,"0","0",NULL
+"12119","799","JIRAUSER10100","Tested KO (x)
+
+ 
+
+Loan is approved ---> should not
+
+Loan reason is not updated
+
+Period differed is not updated
+
+ ","0","0","14400"
+"12120","800","JIRAUSER10401",NULL,"0","0",NULL
+"12121","801","JIRAUSER10401","ACM aussi non enregistré","0","0",NULL
+"12122","802","JIRAUSER10100",NULL,"0","0","28815"
+"12123","803","JIRAUSER10501",NULL,"0","0","14400"
+"12124","804","JIRAUSER10501",NULL,"0","0","28800"
+"12125","805","JIRAUSER10401",NULL,"14400","0","14400"
+"12126","806","JIRAUSER10100",NULL,"0","0",NULL
+"12127","807","JIRAUSER10100",NULL,"0","0","15"
+"12128","808","JIRAUSER10401",NULL,"0","0",NULL
+"12129","809","JIRAUSER10501",NULL,"0","0",NULL
+"12130","810","JIRAUSER10501",NULL,"0","0","57600"
+"12131","811","JIRAUSER10700","* fonctionalité plusierurs guarants
+ * afficher le data des guarants / récupération
+ * New issue : Add garantor is adding the customer as guarantor + delete buttom ( reset Form) ","14400","14400","64800"
+"12132","812","JIRAUSER10401",NULL,"28800","0","57600"
+"12133","813","JIRAUSER10100",NULL,"0","0",NULL
+"12134","814","JIRAUSER10501","a vérifier avec [~soumaya.barkallah]
+
+UDF type date is not brought
+
+Member org manque
+
+member type LOV à refaire (value 1..)
+
+UDF - en double ","14400","0",NULL
+"12135","815","JIRAUSER10700",NULL,"14400","0","7200"
+"12136","816","JIRAUSER10100","I choose in the simulation 1 as period defered
+
+In complete loan data the value is 0","14400","0","14400"
+"12137","817","JIRAUSER10100","Next should be disabled if there is a missing info 
+
+If a data changes, and the user doesn't clic on save, then message confirmation
+
+if the user change any information on the calculator card, then should calculate again: add alert message
+
+ 
+
+Those modifications should be in ACM/IB","14400","0","10800"
+"12138","818","JIRAUSER10401",NULL,"7200","0","3600"
+"12139","819","JIRAUSER10400",NULL,"7200","0","7200"
+"12140","820","JIRAUSER10400",NULL,"7200","7200",NULL
+"12141","821","JIRAUSER10400",NULL,"14400","0","14400"
+"12142","822","JIRAUSER10100",NULL,"14400","0",NULL
+"12143","823","JIRAUSER10401",NULL,"14400","0","14400"
+"12144","824","JIRAUSER10100","Add Mask 
+
+hijiri date of birth = Gregorian date of birth ","14400","0","14400"
+"12145","825","JIRAUSER10401",NULL,"14400","0","14400"
+"12146","826","JIRAUSER10501",NULL,"14400","0","14400"
+"12147","827","JIRAUSER10501","Quand le client se connecte avec un password temporaire, afficher IHM:
+ * Old Password (old = temp pass)
+ * New password (min 8 carac)
+ * Confirm password (8 carac) (= new pass)
+ * SUBMIT
+ ** ––> Save new password
+ ** ––>redirect to login again
+
+ ","28800","0","39600"
+"12148","828","JIRAUSER10401","ABACUS number","14400","0","14400"
+"12149","829","JIRAUSER10200",NULL,"7200","0","7200"
+"12150","830","JIRAUSER10600",NULL,"14400","0","14400"
+"12151","831","JIRAUSER10600",NULL,"14400","0","14400"
+"12152","832","JIRAUSER10200",NULL,"14400","0","14400"
+"12153","833","JIRAUSER10600",NULL,"14400","0","14400"
+"12154","834","JIRAUSER10200",NULL,"14400","0","28800"
+"12155","835","JIRAUSER10200",NULL,"7200","0","7200"
+"12156","836","JIRAUSER10200",NULL,"14400","0","14400"
+"12157","837","JIRAUSER10200",NULL,"14400","0","21600"
+"12158","838","JIRAUSER10600",NULL,"28800","0",NULL
+"12159","839","JIRAUSER10501","FE+ update API to consider insurance for VAT + IB ( voir email Rad)
+
+DoD:
+ # FE ACM Add loan (/)
+ # FE ACM Complete loan data (/)
+ # FE ACM Calculator pop-up
+ # FE IB Complete loan data (!)
+ # API Add loan
+ # API approval
+ # API Update loan (approve loan)
+ # API Calculate (/)
+
+ Differed period 'Defer only Due Date' value ABACUS = 5
+
+ Fees = (Loan Amount * ISSUE FEE %1 /100) + ((Loan Amount * ISSUE FEE %1 /100) * IssueFeeVAT1 /100)
+
+exemple :
+
+(20000 * 1/100) + ((20000*1/100) *15/100)) = 230","43200","0","72000"
+"12160","840","JIRAUSER10200",NULL,"14400","0","3600"
+"12161","841","JIRAUSER10501",NULL,"28800","0","21600"
+"12162","842","JIRAUSER10101","[~soumaya.barkallah] prepare the list","144000","0","144000"
+"12163","843","JIRAUSER10200",NULL,"0","0",NULL
+"12164","844","JIRAUSER10200",NULL,"28800","0","36000"
+"12165","845","JIRAUSER10200",NULL,"28800","0","43200"
+"12166","846","JIRAUSER10600",NULL,"57600","0","28800"
+"12167","847","JIRAUSER10200",NULL,"14400","0","7200"
+"12168","848","JIRAUSER10600",NULL,"28800","0",NULL
+"12169","849","JIRAUSER10600",NULL,"57600","57600",NULL
+"12170","850","JIRAUSER10600",NULL,"86400","86400",NULL
+"12171","851","JIRAUSER10200",NULL,"86400","86400",NULL
+"12172","852","JIRAUSER10600",NULL,"3600","3600",NULL
+"12173","853","JIRAUSER10600",NULL,"3600","3600",NULL
+"12174","854","JIRAUSER10600",NULL,"28800","28800",NULL
+"12175","855","JIRAUSER10200",NULL,"28800","0","28800"
+"12176","856","JIRAUSER10200",NULL,"28800","0","28800"
+"12177","857","JIRAUSER10100",NULL,"28800","0","57600"
+"12178","858","JIRAUSER10600","# setting documents to link document type and the agreement (including KAFALA)
+ # Add download button in the add document screen","21600","0","21600"
+"12179","83",NULL,"Please remove only the error from the calculator screen, and keep blocking on calculator result display .","3600","3600",NULL
+"12180","859","JIRAUSER10100","Please remove  only the error from the  screen and keep the blocking on the  calculator result.","0","0",NULL
+"12181","860","JIRAUSER10100",NULL,"0","0",NULL
+"12182","861","JIRAUSER10401",NULL,"14400","0","14400"
+"12183","862","JIRAUSER10100",NULL,"57600","0","28800"
+"12184","863","JIRAUSER10501",NULL,"7200","0","3600"
+"12185","864","JIRAUSER10100",NULL,"14400","0","14400"
+"12186","865","JIRAUSER10400",NULL,"7200","0",NULL
+"12187","866","JIRAUSER10101","select portfolio_description, insert_by,UPDATED_BY from ACM_customer;
+select ACCOUNTPORTFOLIO_DESCRIPTION, INSERT_BY, UPDATED_BY from ACM_LOAN
+
+ ","7200","0","7200"
+"12188","867","JIRAUSER10700","if user clicks on wherever place other than next button
+
+ Add save button in the screen ","7200","0","10800"
+"12189","868","JIRAUSER10501","auditor should not see this screen","3600","0","3600"
+"12190","869","JIRAUSER10600",NULL,"14400","0","7200"
+"12191","870","JIRAUSER10600",NULL,"14400","0",NULL
+"12192","871","JIRAUSER10101",NULL,"14400","0",NULL
+"12200","872","JIRAUSER10100",NULL,"14400","0","7200"
+"12300","873","JIRAUSER10100",NULL,"3600","0","3600"
+"12301","874","JIRAUSER10100",NULL,"28800","28800",NULL
+"12302","875","JIRAUSER10600","* Create Report IHM
+ * Review ACM Side Bar Menu (list) + Colors ","14400","0","43200"
+"12303","876","JIRAUSER10700",NULL,"14400","0",NULL
+"12304","877","JIRAUSER10101",NULL,"14400","0","10800"
+"12305","878","JIRAUSER10600",NULL,"3600","0","3600"
+"12306","879","JIRAUSER10700","Ceci est pour tous les type de customer :
+Il faut que le system:
+1- Control l'existance des deux dates de naissance
+2- Control l'age du customer ou partner, il faut qu'il soit >à 18 ans","3600","0","14400"
+"12307","880","JIRAUSER10600","Probleme lié au cache, on n a pas la liste de produits et i faut faire un CTRL+F5
+
+IL faut résoudre ce problème, c est blocking for GO live","14400","0","7200"
+"12308","881","JIRAUSER10501",NULL,"14400","0",NULL
+"12309","882","JIRAUSER10401",NULL,"57600","57600",NULL
+"12310","883","JIRAUSER10401","add new col : lang
+ * values = (AR, FR, EN)","57600","57600",NULL
+"12311","884","JIRAUSER10401","  Error appears  after we click on Save button to save  Loan details for every group members ","14400","0",NULL
+"12312","885","JIRAUSER10700","when the Branch Manager select a loan officer different than the one selected in IB, the Online Application owner does not change (see attachment)","14400","0","14400"
+"12313","886","JIRAUSER10700","We should update the group simulation - info group members screen add email and phone
+
+!image-2020-12-21-09-54-43-932.png!","14400","0","14400"
+"12314","887","JIRAUSER10100"," 
+
+Update the Customer (Type ORG), UDF ""Members"" with members details:
+
+Customer Number | Customer Name | Role | % Owned","21600","21600",NULL
+"12315","888","JIRAUSER10100",NULL,"7200","0","7200"
+"12316","889","JIRAUSER10100","La fonctionnalité déjà testée est non fonctionnelle maintenant","14400","0","10800"
+"12317","890","JIRAUSER10600","Added document via IB the viewed the result in ACM with Loan officer profile “ Asya”
+
+!image-2020-12-11-22-39-40-239.png!
+
+!image-2020-12-11-22-39-53-485.png!","14400","0",NULL
+"12318","891","JIRAUSER10501","Loan Approved L1- Unable to Pay admin fees in Abacus","14400","0",NULL
+"12319","892","JIRAUSER10401","Il faut que l’étape « Disbursement & Case Clôture » change en vert une fois que le crédit est décaissé dans Abacus","14400","14400",NULL
+"12320","893","JIRAUSER10501","Le montant des frais de dossier est 1%+ TVA =15%
+
+Proposition 1 : Ramener le montant directement de Abacus 
+
+Proposition 2 : Afficher l'information TVA comme suit :
+
+!image-2020-12-14-08-51-46-735.png!","14400","0",NULL
+"12321","894","JIRAUSER10501","+++ séparer les écrans  CUSTOMER 360  et edit customer (les ajuster au menu)
+
+ ","7200","0","7200"
+"12322","895","JIRAUSER10101","[~Haythem.Benizid] mettre les requetes à [~radhouane.homrani] ici svp","7200","0",NULL
+"12323","896","JIRAUSER10400","Issue happen only with Loan Amount 10000  + term =20 Month.
+
+ ","14400","0",NULL
+"12324","897","JIRAUSER10600","!image-2020-12-14-14-00-11-880.png!","14400","0","3600"
+"12325","898","JIRAUSER10501","!image-2020-12-14-14-06-37-081.png!","14400","14400",NULL
+"12326","899","JIRAUSER10200","Phone number and emails  are also mandatory
+
+!image-2020-12-14-14-37-19-736.png!","14400","0","3600"
+"12327","900","JIRAUSER10600","The below requests are already accepted , please remove them from the screen.
+
+!image-2020-12-14-15-07-22-833.png!","14400","0","7200"
+"12328","901","JIRAUSER10100",NULL,"14400","0","14400"
+"12329","902","JIRAUSER10700","!image-2020-12-14-15-41-07-003.png!","14400","0",NULL
+"12330","903","JIRAUSER10600","DOC_TYPE SETTING:
+
+Agreements could be conficured as Kafala documents (Add flag)
+
+When UDF Kafala = Yes (On the loan)  then the agreements related to kafala should be mandatory","28800","28800",NULL
+"12331","904","JIRAUSER10600","1- Delete button "" Save and Submit"" once Agrrement document are sent
+
+!image-2020-12-14-17-31-06-609.png!
+
+2-  Once submitted stay on Step 5"" Upload Agreement "" and not  on step 6 "" Disbursement""
+
+ 
+
+!image-2020-12-14-17-30-58-998.png!","14400","0","7200"
+"12401","907","JIRAUSER10200",NULL,"21600","0","18000"
+"12402","908","JIRAUSER10401","[~soumaya.barkallah]
+ * ajouter col dans la table : (/)
+
+ * 
+ ** user : OPERATION
+ ** user : MANAGMENT
+ ** user : CUSTOMER
+ * Ajouter un flag dans le setting users pour préciser si un user a un role managment ([~salmen.fatnassi] )
+
+ * 
+ ** Si 'OUI', ce user doit pouvoir visualiser les crédits de toutes les agences (branch) dont il a acces (access branches dans la table acm_users) (/)
+ ** Si 'NON', ce user doit voir seulement les crédit selon son hiérarchie (/)
+ * Ce changement doit affecter principalement :
+ ** List of Loan Applications Dashboard (/)
+ ** Online Applications list (/)
+ ** Toutes les listes de customer (/)
+ ** Les rapports (/)
+ ** Setting IHM ([~salmen.fatnassi] )
+ *** add select box dans IHM (/)","28800","0","46800"
+"12403","909","JIRAUSER10100",NULL,"14400","0","21600"
+"12404","910","JIRAUSER10700","!image-2020-12-16-11-04-20-267.png!
+
+!image-2020-12-16-11-04-59-210.png!","14400","0","10800"
+"12405","911","JIRAUSER10700","Visit Report / Guarantor Sreening should be displayed if exist for
+
+Approval / Audit  / Risk Views /
+ Customer Decision
+ Upload Signed Agreement
+
+Loan Review (DISBursment& Case closure/ Cancelled/Declined/rejected/issued) : [http://172.16.4.186/loan-approval]
+  
+  
+|Card|Always display?|Condition|
+|Customer Information|X| |
+|Loan Application Details|X| |
+|Schedule|X| |
+|Customer Accounts|X| |
+|Loan Guarantor| |select * from ACM_SETTING_GUARANTOR_COLLATERAL where ID_PRODUCT = ACM_PRODUCT loan AND CODE = 'GUARANTOR'
+ If yes|
+|All Documents|X| |
+|Field Visit |X|if data exist display then yes |
+|Customer Screening|X|if data exist display then yes|
+|Guarantor Screening| |if data exist display then yes|
+|Notes|X| |","14400","0","21600"
+"12406","912","JIRAUSER10700","the buton should be enabled  when nothing has been changed --(/)
+
+ 
+
++ if the calculate returns error, the form is not valid and the next should be disabled(/)
+
+ 
+
++ Ask user to save between tabs (when there are changes) (/)
+
+ 
+
++ Check why the NationalID/ResidenceID is gone sometimes (/)","14400","0","21600"
+"12407","913","JIRAUSER10101","Customer Should not update LA information only when LA is assigned to him.
+
+ 
+
+!image-2020-12-16-12-12-06-204.png!
+
+ 
+
+Customer should not update LA information only when LA is assigned to him
+
+ ","14400","0","3600"
+"12408","914","JIRAUSER10101"," 
+
+TO DO:
+ * {color:#ff0000}*ACM_CUSTOMER.REGISTER_NUMBER:*{color}
+ ** IB Simulation: Registration NUMBER should be registred when entering a new customer (organization) in ACM_CUSTOMER.REGISTER_NUMBER (+ in UDF CUSTOMER) (/) (*g)
+ ** ADD CUSTOMER (ACM) (/)
+ ** UPDATE CUSTOMER ACM + IB (Complete LOAN DATA)(/)
+ ** UPDATE CUSTOMER screen (/)
+ * Test with REGISTRATION NUMBER  when entering orga info in IB, if regist number exist ==> message (This organization exists already, please connect)(/) (*g)
+ * If org does not exist but the Main partner exist (national ID/Residence ID), then do not block add loan but link him to the ORG(/) (*r)
+
+---------------------------------------------------------------------------------------------------------------
+ * INDIV: when the customer enters NartionalID/Residence ID and it exists ==> Block (/) (*g)
+
+---------------------------------------------------------------------------------------------------------------
+ * For Group customers, if the customer enters for one of the members a NatioanID/ResidenceID existing and is part of a group (enabled = 1), add an error message, ""This customer belongs to a group, please contact us for more details""
+ ** Else , if one of the members does not exist in a group but is an existing customer in ACM, then link it to the group
+ *** Note that it s better to check when SUBMIT (/) (*g)","28800","0","57600"
+"12409","915","JIRAUSER10700","1- Please change the message to ""  _kindly_ settle the admin fees _payment_ "".
+
+2- Please display the customer bank account 
+
+ 
+
+!image-2020-12-16-12-31-33-553.png!
+
+ ","14400","0","7200"
+"12410","916","JIRAUSER10101",NULL,"14400","0","43200"
+"12411","917","JIRAUSER10101",NULL,"7200","0","14400"
+"12413","919","JIRAUSER10101","1-Document name  are not coherent
+
+!image-2020-12-16-16-36-21-318.png!","14400","0","3600"
+"12414","920","JIRAUSER10700","Display the real total amount for VAT 
+
+!image-2020-12-16-16-56-16-110.png!","14400","0","3600"
+"12415","921","JIRAUSER10700"," Loan reason and industry code (UDF)  are saved in Loan information 
+
+ 
+
+ 
+
+!image-2020-12-17-10-44-31-904.png!
+
+!image-2020-12-17-10-45-14-926.png!","14400","0","14400"
+"12416","922","JIRAUSER10101",NULL,"28800","28800",NULL
+"12417","923","JIRAUSER10000",NULL,"14400","0",NULL
+"12418","924","JIRAUSER10101",NULL,"14400","0","57600"
+"12419","925","JIRAUSER10501","!image-2020-12-17-17-06-41-667.png!
+
+!image-2020-12-17-17-07-11-058.png!","14400","14400",NULL
+"12420","926","JIRAUSER10501"," 
+
+ ","14400","0","28800"
+"12421","927","JIRAUSER10700","1- Loan Tab is not working 
+
+2- Address is not displayed
+
+3- Customer information and Address empty for Org
+
+4- Do not display partner info in the customer indiv screen 
+
+5 - Adjust I18N","14400","3600","10800"
+"12422","928","JIRAUSER10700","3 issues :
+
+-Protfolio  name  is missed
+
+-Hijri DOB is missing 
+
+-Display  issue Date on online application , 
+
+When the Branch manager enters  to ""Online application""  from the ""Assign Application"" screen and click on (Exit and Accept) it redirect to Online ""Online application"" screen
+
+ 
+
+ 
+
+!image-2020-12-18-10-06-26-200.png!
+
+ 
+
+ 
+
+ ","14400","0","14400"
+"12423","929","JIRAUSER10101",NULL,"14400","0","3600"
+"12424","930","JIRAUSER10101","TESTS:
+ * ajouter col dans la table : (/)
+
+ * 
+ ** user : OPERATION
+ ** user : MANAGMENT
+ ** user : CUSTOMER
+ * Ajouter un flag dans le setting users pour préciser si un user a un role managment ([~salmen.fatnassi] )
+
+ * 
+ ** Si 'OUI', ce user doit pouvoir visualiser les crédits de toutes les agences (branch) dont il a acces (access branches dans la table acm_users) (/)
+ ** Si 'NON', ce user doit voir seulement les crédit selon son hiérarchie (/)
+ * Ce changement doit affecter principalement :
+ ** List of Loan Applications Dashboard 
+ ** List of Online App (!)
+ ** Toutes les listes de customer  (!)
+ ** Les rapports (!)
+ ** Setting IHM ([~salmen.fatnassi] )
+ *** add select box dans IHM (/)","28800","0",NULL
+"12425","931","JIRAUSER10700","Please  freize  Calculator data 
+
+!image-2020-12-18-16-45-06-339.png!","14400","0","18000"
+"12426","932","JIRAUSER10101",NULL,"28800","0","21600"
+"12427","933","JIRAUSER10501","Please correct Deffred periode setting in all Screens for all Product 
+
+See below exaple for Group loan 
+
+!image-2020-12-21-10-55-07-796.png!","14400","0","7200"
+"12428","934","JIRAUSER10200","once a prospect is created in ABACUS, we should update his status to active","14400","0",NULL
+"12429","935","JIRAUSER10700","The screen view is missing Members details   and  note
+
+The review status should not write  approval status in Abacus and IB 
+
+!image-2020-12-21-11-45-57-639.png!","14400","14400",NULL
+"12430","936","JIRAUSER10101","Qarniag is able to see recommend button in group audit step (/)
+
+*(*r)* IB: Simulation loan 9000/18 mois, quand le crédit est créé dans ACM : 19 mois au lieu de 18 mois (!) to be verified  :
+
+  *{color:#de350b}(*r) Rep moez{color} : Après analyse et debug le problème viens de l'API create Loan GRP d'abacus on rajoute toujours un terme pour les childs loans lors de leurs création dans abacus (MANTIS 1066)*
+
+ci dessous json file input and output from api abacus
+
+""ok"" should be disabled if I confirm is not checked (/)
+
+*{color:#ff0000}I updated the approved amount but it as not saved (/){color}*      
+
+Missing ""Ask for review"" & ""Agreed"" buttons for customer Decision screen (/)
+
+  *{color:#ff0000}(*r) Customer decison screen approved L1 & L2 levels in ABacus{color}* 
+
+  *{color:#ff0000}(*r) Rep moez{color} : D'après mon analyse c'est un bug au niveau de l'api d'approbation d'abacus ci dessous le json que j'envoi lors de la première validation in customer decision reste a validé avec Radhouane*
+
+Add all validations in the buttons (all steps) as per individual (incluant Admin fees paid condition ) (/)
+
+ ","28800","0","43200"
+"12431","937","JIRAUSER10100",NULL,"14400","0","7200"
+"12432","938","JIRAUSER10101","To do in all tables:
+
+customer-edit-menu (edit customer) (/)
+
+customer-360?mode=1 (cust 360) (/)
+
+online-application (/)
+
+loan-assign (/)
+
+List of Loan Applications (/)
+
+customer-list?mode=3 (add loan) (/)
+
+ ","14400","0","7200"
+"12433","939","JIRAUSER10101","Le workflow stop at this step :
+
+!image-2020-12-22-14-28-47-953.png!
+
+ Then it log me off 
+
+!image-2020-12-22-14-29-01-248.png!
+
+ 
+
+ ","14400","0",NULL
+"12434","940","JIRAUSER10700",NULL,"14400","0","14400"
+"12435","941","JIRAUSER10101","1- Disable Customer information & partner for Org when LA is not assigned to customer
+
+2-  Upload address when is not empty ","14400","0",NULL
+"12436","942","JIRAUSER10700"," 1- Monthly repayement value in complete Loan data - Loan Tab.
+
+ 
+
+ 
+
+ ","14400","0","7200"
+"12437","943","JIRAUSER10101"," 
+
+1- If the loan status  is "" rejected or ""cancelled ""  Issued Amount = ""0"" (/)
+
+2- if Loan  status is "" issued
+
+       2-1 if Loan  product is HBL -->  Issued Amount = Loan Amount (/)
+
+       2-2 if Loan product is group Loan -->  Issued Amount = Loan Amount (/)
+
+       2-3 - if Loan product is Murabaha  ->  Issued Amount = Loan Amount VAT 
+
+!image-2020-12-23-14-19-37-481.png!
+
+ ","14400","0","14400"
+"12438","944","JIRAUSER10101","Hijri DOF is already  used in customer information
+
+No need to  display it as UDF
+
+To Do in ACM/IB/Edit Customer screen
+
+ ","14400","0","14400"
+"12439","945","JIRAUSER10101","+ When there is an exception, do not save the org in ACM
+
+ ","14400","0",NULL
+"12440","946","JIRAUSER10700",NULL,"14400","0","7200"
+"12441","947","JIRAUSER10101","+ add a notif when a Loan App is sent for review from audit or risk","7200","0",NULL
+"12442","948","JIRAUSER10101","Ajouter variable dans ACM-ENV
+
+ 
+
+Ceci affectera:
+
+Simulation group IB
+
+add customer group ACM","28800","0",NULL
+"12443","949","JIRAUSER10101",NULL,"14400","0",NULL
+"12444","950","JIRAUSER10101","When I change the LO from the list, the ID and Code are updated but not the loan description ","14400","0","14400"
+"12500","951",NULL,"1- Arabic names saves as "" ???""   
+
+ 
+
+!image-2020-12-24-14-17-05-684.png!","14400","14400",NULL
+"12501","952","JIRAUSER10700","Please  find below the missing   card and button for Group Loan 
+
+- Please check with Moez in case of doubt
+
+ 
+
+!image-2020-12-24-15-31-18-249.png!
+
+!image-2020-12-24-15-31-40-962.png!","14400","14400",NULL
+"12502","953","JIRAUSER10200","Setting Product 
+ * add options : INDIV, ORG, GRP(/)
+ * Add Enable/Disable choice for product
+
+Setting User 
+ * bug button save  on update user(/)
+ * Add filtre for group/ portfolio.
+
+Setting notification card check code (done) ","14400","0",NULL
+"12503","954","JIRAUSER10700","Merci d'ajouter  *""DayCount"": 1* dans les API Suivant :
+ - Add loan
+
+ - Update Loan
+
+ - Update/Approuve loan
+
+ - Loan Calculation
+
+ 
+
+L'ajout sous :
+
+""loanApp"": {
+
+        ""loanPart"": {
+
+ *""DayCount"": 1*","28800","0","7200"
+"12504","955","JIRAUSER10600","For Group customers, if the customer enters for one of the members a NatioanID/ResidenceID existing and is part of a group (enabled = 1), add an error message, ""This customer belongs to a group, please contact us for more details""
+ * Else , if one of the members does not exist in a group but is an existing customer in ACM, then link it to the group","14400","14400",NULL
+"12505","956","JIRAUSER10101","To be discussed with [~soumaya.barkallah]","14400","0","14400"
+"12506","957","JIRAUSER10101","Cannot save and submit when gender is empty- please add a message if control 
+
+!image-2020-12-25-20-39-42-244.png!","14400","0","14400"
+"12507","958","JIRAUSER10100","Bug display Guarrantor IB","7200","0",NULL
+"12508","959","JIRAUSER10401","* creation table de mapping entre ACM data et les DATA (see excel file in PJ)","28800","0",NULL
+"12509","960","JIRAUSER10700","Correction required on :
+
+1- Loan Amount
+
+2- Term
+
+3- Grace period
+
+ 
+
+!image-2020-12-28-16-21-21-868.png!","14400","0","14400"
+"12510","961","JIRAUSER10101","Mantis :  1083
+
+ ","14400","0","3600"
+"12600","962","JIRAUSER10101","تاريخ السداد المتوقع تغيير الاسم (Image1)","14400","0","3600"
+"12601","963","JIRAUSER10101","Merged in ACM-932","28800","0","14400"
+"12602","964","JIRAUSER10700"," Confimration message screen need enhace ( it has to be a freez screen that your applicatiohas been submited Succesfully and LO will contact within 24 hr)
+
+Please find below the text "" Your application has been submitted successfully and Loan Officer will contact you within 24 hours, Thanks ""","7200","0","7200"
+"12603","965","JIRAUSER10600","add Hint under grace period Field ex( should be max is (3) - and the min is (1) )in all products
+
+Voir paramétrage produit( il faut que ca soit dynamique)","7200","0","7200"
+"12604","966","JIRAUSER10600","remove the note in red - VAT in ( Admin fee & monthly amt)","7200","0","3600"
+"12605","967","JIRAUSER10101","IB+ACM","14400","0","7200"
+"12606","968","JIRAUSER10600","filter the list","14400","0",NULL
+"12607","969","JIRAUSER10101",NULL,"14400","0",NULL
+"12608","970","JIRAUSER10101","ACM + IB","14400","0","7200"
+"12700","971","JIRAUSER10101",NULL,"14400","0","3600"
+"12701","972","JIRAUSER10101","Branch manager reject OA","14400","0",NULL
+"12704","975","JIRAUSER10101","{
+ ""exceptionID"": 93716,
+ ""number"": 5041,
+ ""message"": ""Customer Add Failed"",
+ ""info"": ""Customer"",
+ ""type"": ""System.Exception"",
+ ""source"": ""Abacus.BusinessRules"",
+ ""dateTime"": ""2021-01-02T15:04:00.2377214+03:00"",
+ ""validationMessages"": null
+ },
+ {
+ ""exceptionID"": 93717,
+ ""number"": 5052,
+ ""message"": ""Community Customer Link Failed"",
+ ""info"": ""Customer"",
+ ""type"": ""Abacus.ValidationException"",
+ ""source"": ""Abacus.BusinessRules"",
+ ""dateTime"": ""2021-01-02T15:04:00.2657439+03:00"",
+ ""validationMessages"": [
+ {
+ ""fieldName"": ""Community"",
+ ""message"": ""There must be exactly only one Head customer is allowed in this group.""
+ }
+ ]
+ }
+]","14400","0",NULL
+"12705","976","JIRAUSER10501","'Avec paramétrage par produit' 
+
+IB : Simulation, Complete loan data
+
+ACM : Add group (choix feminin seulement comme membre)
+
+Complete loan data","28800","0","14400"
+"12706","977","JIRAUSER10101","After insrting all data and press submit , the system raise a validation message that the Customer age is wrong but it doesn't show for which member .","14400","0","14400"
+"12707","978","JIRAUSER10400","|After tab event in Group member field the cursor rotat to the mobile application field of last Div in ( Contact information ) |
+| |
+| |","28800","0","3600"
+"12708","979","JIRAUSER10400","*all Validation of Customer in internet banking must be available add Guarantor.*
+ * National ID – Email Format – Calendar (Hijri & Gregorian) -","14400","0","14400"
+"12709","980","JIRAUSER10101",NULL,"14400","0","14400"
+"12710","981","JIRAUSER10200",NULL,"7200","0",NULL
+"12711","982","JIRAUSER10501","Forget password and the user does not exist dans ACM_users ==> DISPLAY THE message : this username is incorrect ,please try again","7200","0","10800"
+"12712","983","JIRAUSER10101","1-if a new loan applied and the loan officer filling the customer info, the info is not saving even if I clicked in save button
+2-it's request to re enter the info e.g.(national ID ) .
+3-there's no items added in nationality section so I can't choose and can't click on next button because it's inactive
+4-if the loan officer assign to customer and the customer uploaded the docs it's not appearing to the loan officer
+5-""bad error request"" msg appear","14400","0",NULL
+"12713","984","JIRAUSER10101","in Murabha loan after the loan officer clicked on agreed in customer decision phase the system sign out unexpectedly","14400","0","21600"
+"12714","985","JIRAUSER10501","When assigning an OA, update also the LO of customer not only of the lOAN APP","14400","0","14400"
+"12715","986","JIRAUSER10101","توجد مشكلة في البرنامج بانه بإمكان العميل التغيير في الوثائق على الرغم من انه تم الموافقة عليها من اخصائي التمويل (voir dernier pull request de Abdelkarim)","14400","0",NULL
+"12716","987","JIRAUSER10101","all validations which added in internet banking for Customer have to be available in ( ADD Customer Screen )
+
+- National ID
+- Mobile Number
+- Email Format
+- National Address","14400","0","3600"
+"12717","988","JIRAUSER10501","[http://www.talys-consulting.com/appli/mantis/view.php?id=1110]
+
+ ","14400","0","7200"
+"12718","989","JIRAUSER10101","|missing fields :
+ 1- Expire date
+ 2- CR Entity Number (start by 7 & 10 Number)|","14400","0",NULL
+"12719","990","JIRAUSER10101","|IF the customer select a very old Hijiry year in Birth date Calendar , the Gregorian year calculated by wrong value 1001|
+
+ ","14400","0",NULL
+"12720","991","JIRAUSER10200","|Add Hint under Number of Group member Field
+( Min Number 2 and Max Number 5 as per policy )|","14400","0","3600"
+"12721","992","JIRAUSER10401","""validationMessages"": [
+ {
+ ""fieldName"": ""Community"",
+ ""message"": ""Cannot have a Community\\Solidarity customer with no customers added.""
+ },
+ {
+ ""fieldName"": ""Address"",
+ ""message"": ""Address is required.""
+ },
+ {
+ ""fieldName"": ""Primary Address"",
+ ""message"": ""A primary address is required.""
+ }","14400","0","7200"
+"12722","993","JIRAUSER10401","Add UDF id on update","0","0",NULL
+"12723","994","JIRAUSER10100",NULL,"14400","0",NULL
+"12724","995","JIRAUSER10501","| RELATIONSHIPS|List of all individuals |
+|ORG \| Partners|List of individuals of the Org's branch|
+|GROUP \| Members|List of individuals of the Group's branch not belonging to another group and gender is feminal|","28800","0","21600"
+"12725","996","JIRAUSER10101",NULL,"14400","0","43200"
+"12726","997","JIRAUSER10501","To do IB + ACM
+ # Add new column INSURANCE_VAT
+ # BE- Use this column in API
+ # FE-calculate should use the existing formula","14400","0","7200"
+"12727","998","JIRAUSER10501","Le client a entré un email erroné de IB, au moment de accept OA, le loan a ete créé mais le user dans la table ACM_USERS n a pas ete créé
+
+ ","14400","0",NULL
+"12728","999","JIRAUSER10101","ACM+IB","14400","0","14400"
+"12729","1000","JIRAUSER10501",NULL,"7200","0",NULL
+"12730","1001","JIRAUSER10401",NULL,"7200","0","7200"
+"12731","1002","JIRAUSER10501","if the user choose Arabic language then click on refresh button the language page changed by default to English","14400","0","3600"
+"12732","1003","JIRAUSER10401",NULL,"28800","0","28800"
+"12733","1004","JIRAUSER10401",NULL,"28800","0","28800"
+"12734","1005","JIRAUSER10101",NULL,"14400","0","7200"
+"12735","1006","JIRAUSER10401",NULL,"14400","0","43200"
+"12736","1007","JIRAUSER10400",NULL,"14400","0",NULL
+"12737","1008","JIRAUSER10101",NULL,"14400","0",NULL
+"12738","1009","JIRAUSER10501",NULL,"14400","0","14400"
+"12739","1010","JIRAUSER10101",NULL,"14400","0",NULL
+"12740","1011","JIRAUSER10100",NULL,"3600","0",NULL
+"12741","1012","JIRAUSER10101",NULL,"14400","0","7200"
+"12742","1013","JIRAUSER10401",NULL,"14400","0","57600"
+"12743","1014","JIRAUSER10401","Setting Product 
+ * add options : INDIV, ORG, GRP(/)
+ * Add Enable/Disable choice for product
+
+Setting User 
+ * bug button save  on update user(/)
+ * Add filtre for group/ portfolio. (/)
+
+Setting notification card check code (done) (/)","14400","0","21600"
+"12744","1015","JIRAUSER10101",NULL,"14400","0",NULL
+"12745","1016","JIRAUSER10400",NULL,"7200","0",NULL
+"12746","1017","JIRAUSER10101",NULL,"14400","0","18000"
+"12800","1018","JIRAUSER10400","[https://www.youtube.com/watch?v=IJbAhfFRHdA]
+
+[https://solutioncenter.apexsql.com/enable-use-sql-server-change-data-capture/]
+
+ ","14400","0","14400"
+"12900","1019","JIRAUSER10700","IB - FE:
+ * ORG (/)
+ * GRP : On group loan not childs
+ * IND : With Customer info 
+
+IB - BE: Save this info in IB LOAN
+
+ACM- Online app screen: Display this info on LOAN INFO TAB
+
+When accept loan application : save this info on the loan UDF project description field
+
+(on the group save on the loan parent) [~Haythem.Benizid]","28800","0","14400"
+"12901","1020","JIRAUSER10401",NULL,"14400","0","14400"
+"12902","1021","JIRAUSER10400",NULL,"14400","0","14400"
+"12903","1022","JIRAUSER10401","WFL parent reste a l' étape Approval L1 et les child dans customer decsion,
+
+faudra trouver une facon pour ne pas avoir ce probleme
+
+ ","28800","0","36000"
+"12904","1023","JIRAUSER10700","يقبل حفظ البيانات بدون تسجيل الرمز البريدي","14400","0","14400"
+"12905","1024","JIRAUSER10700",NULL,"0","0","14400"
+"12906","1025","JIRAUSER10700",NULL,"14400","0","7200"
+"12907","1026","JIRAUSER10700",NULL,"14400","0",NULL
+"12908","1027","JIRAUSER10200","* Link for the Branches contact (Address / Email / Phone Number) – will see the possibility to include in a map ( I received an email from SAMA that the map is required )(/)
+
+ * How to use IB link (will confirm if PDF of page in IB)
+ * Logos Fb, tweeter and Instagram of BRJMF(/)
+ * Link to redirect the user to BRJMF website(/)
+ * Security ( PDF Link)
+ * Consumer Protection  (PDF Link)
+ * Career (PDF Link)
+ * BRJMF Mobile  ( Android , IOS – *Hyperlinks*)
+ * BRJMF ALL Rights Reserved *( Text )(/)*
+ * Under the Supervision and control of the Saudi Arabian Monetary Authority ( Text )(/)
+
+ 
+
+[https://new.alahlionline.com/ui/#/login/full-login-login]
+
++[https://new.alahlionline.com/account-opening/#/registration/onlineAccountOpening-personal]
+
++","28800","0","28800"
+"12909","1028","JIRAUSER10200",NULL,"14400","0","14400"
+"12910","1029","JIRAUSER10501","[~Haythem.Benizid] && [~moez]
+ * 3 party : AML & SIMAH
+ * GED 
+
+ ","14400","0","57600"
+"12911","1030","JIRAUSER10501","[~Yesser.Somai] on doit discutter avant les points suivants:
+
+on va activer le setting dans ABACUS et nous allons tester si l API nous bloque sinon on décidera comment faire","28800","0","50400"
+"12912","1031","JIRAUSER10100","# Chnger type du champs BD
+ # Faire le nécessaire coté BE/FE
+ ## A faire IB/ACM (HD-BoB)
+
+Migration: UPDATE ACM CUSTOMER with the UDF from Abacus
+
+ 
+
+ ","43200","0","57600"
+"12913","1032",NULL,"Aligner Add Customer Doc and Loan Doc in Add document screen of the workflow","240","240",NULL
+"12914","1033","JIRAUSER10501",NULL,"14400","0","3600"
+"12915","1034","JIRAUSER10501","Mantis : 0001174 Loan : 80402-000077 :
+
+This stopper issue appear after click on save button the system are not respond then sign out","14400","0","3600"
+"12916","1035","JIRAUSER10501",NULL,"14400","0","3600"
+"12917","1036","JIRAUSER10401",NULL,"7200","0","7200"
+"12918","1037","JIRAUSER10401","[~soumaya.barkallah]
+
+{color:#212529}Analytics{color} : by connected user *Branch* OR *acces branch (if exist)*","28800","0","57600"
+"12919","1038","JIRAUSER10401","[~soumaya.barkallah]
+
+{color:#212529}Analytics{color} : by connected user *Branch* OR *acces branch (if exist)*","0","0",NULL
+"12920","1039","JIRAUSER10401",NULL,"0","0",NULL
+"12921","1040","JIRAUSER10401",NULL,"7200","7200",NULL
+"12922","1041","JIRAUSER10401",NULL,"14400","0","21600"
+"12923","1042","JIRAUSER10700",NULL,"14400","0","7200"
+"12924","1043","JIRAUSER10200","* Link for the Branches contact (Address / Email / Phone Number) – will see the possibility to include in a map ( I received an email from SAMA that the map is required )(/)
+
+ * How to use IB link (will confirm if PDF of page in IB)
+ * Logos Fb, tweeter and Instagram of BRJMF(/)
+ * Link to redirect the user to BRJMF website(/)
+ * Security ( PDF Link)
+ * Consumer Protection  (PDF Link)
+ * Career (PDF Link)
+ * BRJMF Mobile  ( Android , IOS – *Hyperlinks*)
+ * BRJMF ALL Rights Reserved *( Text )(/)*
+ * Under the Supervision and control of the Saudi Arabian Monetary Authority ( Text )(/)
+
+ 
+
+[https://new.alahlionline.com/ui/#/login/full-login-login]
+
++[https://new.alahlionline.com/account-opening/#/registration/onlineAccountOpening-personal]
+
++","28800","28800",NULL
+"12925","1044","JIRAUSER10400","[https://www.youtube.com/watch?v=IJbAhfFRHdA]
+
+[https://solutioncenter.apexsql.com/enable-use-sql-server-change-data-capture/]
+
+ ","14400","14400",NULL
+"12926","1045","JIRAUSER10700",NULL,"14400","0","7200"
+"12927","1046","JIRAUSER10501",NULL,"7200","0","3600"
+"12928","1047","JIRAUSER10501","We cannot add a customer having an ongoing loan as a guarantor:
+ * ACM:
+ ** List of guarantors should not display active customers (ongoing credit)
+ ** Add a validation on the next button to double check if one of the guarantors is a customer with an active loan
+ ** الكفيل لا يمكنه كفل قرض اخر الا بعد الانتهاء من قرضه الحالي
+ ** الكفيل لا يمكن ان يصبح عميل و يأخذ قرض طلما هوا كفيل
+
+All via parameter :)
+
+ ","28800","28800",NULL
+"12929","1048","JIRAUSER10100","معلومات المورديين لا تظهر لمدقيين الفروع و ادارة المخاطر يجب ان تكون واضحة كما تظهر للاخصائي","28800","28800",NULL
+"12930","1049","JIRAUSER10100","* Il faut avoir minimum un groupe si le groupe est mandatory
+ * EDIT - display the red '*'
+ * Add: Indiv fields for a mandatory group INDIV are displayed for ORG and GRP (even if the fields are not displayed, the validation of the screen failed)
+ * Add the button delete on the Add screen","14400","14400",NULL
+"12931","1050","JIRAUSER10700","تحديد الاخصائي او تفويض القرض يجب ان تظهر كاملة
+
+ rename تفويض القرض","3600","0","1800"
+"12932","1051","JIRAUSER10700","Add button view customer 360 in guarantor card for all steps after draft
+
+ ","0","0","14400"
+"12933","1052","JIRAUSER10200","When adding  group members, add the validation, not on the save as now / OR
+
+Filter the list and remove validation
+
+ 
+
+ ","14400","14400",NULL
+"12934","1053","JIRAUSER10200","MASK 
+
+ 
+
+Validation form before submitting 
+
+add validation for national and resident id 
+
+get length of national and resident id from api","14400","14400",NULL
+"12935","1054","JIRAUSER10200",NULL,"14400","14400",NULL
+"12936","1055","JIRAUSER10200","nothing is mandatory in DB","7200","7200",NULL
+"12937","1056","JIRAUSER10501","J ai mis un montant inférieur au montant du crédit, le message est apparu (en anglais pas en arabe) apres l'ecran s'est gelé avec l'erreur dans le screenshot","14400","0",NULL
+"12938","1057","JIRAUSER10200",NULL,"14400","14400",NULL
+"12939","1058","JIRAUSER10501",NULL,"57600","43200","14400"
+"12940","1059","JIRAUSER10100",NULL,"3600","3600",NULL
+"12941","1060","JIRAUSER10501",NULL,"14400","0","14400"
+"12942","1061","JIRAUSER10200",NULL,"14400","0","10800"
+"12943","1062","JIRAUSER10700",NULL,"14400","0","14400"
+"12944","1063","JIRAUSER10501",NULL,"28800","0","14400"
+"12945","1064","JIRAUSER10100",NULL,"14400","14400",NULL
+"12946","1065","JIRAUSER10700","*SELECT CUTransactionID, ValueDate, Amount FROM CUTransaction*
+*INNER JOIN CULoan ON CULoan.CUAccountID=CUTransaction.CUAccountID*
+*INNER JOIN CULoanPart ON CULoan.CULoanID=CULoanPart.CULoanID*
+*WHERE TransactionTypeID=128*
+*AND ROUND(CUTransaction.Amount,0)=(ROUND(CULoanPart.IssueFee1Amount,0)+ROUND(CULoanPart.IssueFee2Amount,0))*
+*AND CUTransaction.ReversalReceiptNo=0*
+*AND CUTransaction.CUAccountID=:id_account*","14400","0","3600"
+"12947","1066",NULL,"Please see the attached screeshot","14400","14400",NULL
+"12948","1067",NULL,"Please see the attached screeshot","14400","14400",NULL
+"12949","1068",NULL,"Please see the attached screeshot","14400","14400",NULL
+"12950","1069",NULL,"In customer view portofolio is changed from ""demo_loan officer"" to ""Qarniag""
+
+Please see the attached screeshot","14400","14400",NULL
+"12951","1070",NULL,"* The loan tab is ignored when selecting next and 
+ * The system go to add document
+
+Please see the attached screeshot","14400","14400",NULL
+"12952","1071",NULL,"Please see the attached screeshot","14400","14400",NULL
+"12953","1072",NULL,"Please see the attached screeshots","14400","14400",NULL
+"12954","1073",NULL,"Please see the attached screeshot","14400","14400",NULL
+"12955","1074",NULL,"when selecting previous from Add documents
+
+=> System go back to loan information 
+
+Please see the attached screenshot","14400","14400",NULL
