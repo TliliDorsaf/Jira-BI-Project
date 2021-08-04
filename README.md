@@ -19,6 +19,6 @@ Next step was the reporting phase with Power BI. We tried to use different graph
 ![Test Image ](/efficiency_page.png)
 ![Test Image ](/estimation_page.png)
 ![Test Image ](/task_estimation_page.png)
-![Test Image ](/Overruns_page.png)
+![Test Image ](Overruns page.png)
 The next steps were to analyse the data with machine learning algorithms and export the power BI dashboard in a webpage.
 
