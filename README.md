@@ -14,11 +14,11 @@ After we set our objectives and verified them with the company, we started the E
 The first step we did was draft a data warehouse model. We went through different possibilities until we settled for this one:</br>
 ![Test Image ](/dw_model.png)
 After that we used Talend Studio to do the ETL process. You can see the ETL of each dimension and of the fact table in the main branch of this repository.</br>
-Next step was the reporting phase with Power BI. We tried to use different graphs and illustrate the data in different ways and we ended up with these 4 pages: </br>
-![Test Image ](/home page.png)
-![Test Image ](/efficiency page.png)
-![Test Image ](/estimation page.png)
-![Test Image ](/task estimation page.png)
-![Test Image ](/Overruns page.png)
+Next step was the reporting phase with Power BI. We tried to use different graphs and illustrate the data in different ways and we ended up with these 5 pages: </br>
+![Test Image ](/home_page.png)
+![Test Image ](/efficiency_page.png)
+![Test Image ](/estimation_page.png)
+![Test Image ](/task_estimation_page.png)
+![Test Image ](/Overruns_page.png)
 The next steps were to analyse the data with machine learning algorithms and export the power BI dashboard in a webpage.
 
